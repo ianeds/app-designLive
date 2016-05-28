@@ -13,7 +13,6 @@
     @yield('head')
     </head>
 <body>
-<?php include_once("analyticstracking.php") ?>
     <header>
         <div class="header">
             <a href="/" ><img src="images/apparent-logo.png" width="231" height="70"></a>
