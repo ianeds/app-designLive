@@ -1,0 +1,354 @@
+/**********************************
+GENERAL
+***********************************/
+
+body {
+  font-family: Courier New, Courier, Times, Times New Roman, monospace, serif;
+  font-size: .9em;
+  line-height: 1em;
+  background-color: #ffffff;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration:underline;
+  color: #000000;
+  &:link, &:visited {
+    color: #000000;
+  }
+  &:hover {
+    color: #666666;
+  }
+  &:active {
+    color: #000000;
+  }
+
+}
+
+
+.bold {
+  font-weight: bold;
+}
+
+.bigBorder {
+  border-color: #8d8d8d;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.smallBorder {
+  border-color: #8d8d8d;
+  border-style: solid;
+  border-width: 1px;
+}
+
+
+
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+.categories {  
+  padding: 0px 0px 0px 0px;
+
+}
+
+.content-proofs {  
+  padding: 0px 0px 0px 0px;
+
+}
+
+.back-button {
+  text-align: left;
+  font-size: 12px;
+  padding: 0px 0px 0px 0px;
+}
+
+.deco {
+  color: black;
+  font-weight: bold;
+}
+
+/**********************************
+HEADING
+***********************************/
+
+header {
+  float:left;
+  margin: 0 0 20px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+.header {
+  text-align: center;
+  margin: 0;
+}
+
+
+/**********************************
+NAVIGATION
+***********************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 20px;
+
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+  font-size:1em;
+}
+
+nav li {
+  display:inline-block;
+}
+
+nav a {
+  padding: 15px 10px;
+  text-decoration: none;
+  &:link, &:visited {
+    color: #000000;
+  }
+  &:hover {
+    color: #666666;
+  }
+  &:active {
+    color: #000000;
+  }
+}
+
+nav a.active {
+  font-weight: bold;
+}
+
+/******************
+GALLERIES
+******************/
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  color: black;
+
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.9em;
+}
+
+#wv_gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+#wv_gallery li {
+  float: none;
+  width: 100%;
+  margin: 2.5%;
+  color: black;
+
+}
+
+/******************
+CONTENT WORK
+******************/
+
+
+ .content-work {
+    clear:left;
+    text-align: center;
+    margin: 0 5% 0 5%;
+
+  }
+
+
+/******************
+CONTACT
+******************/
+.contact {
+  font-size: .9em;
+  line-height: 1.4em;
+
+}
+
+/******************
+FOOTER
+******************/
+
+footer {
+  font-size:1em;
+  text-align: center;
+  clear:both;
+  padding: 30px 0 30px 0;
+  color: #000;
+}
+
+footer a {
+  font-weight:bold;
+  text-decoration: none;
+  padding: 15px 10px;
+}
+
+/******************
+******************
+
+RESPONSIVE
+
+******************
+******************/
+
+/******************
+min-width 480
+******************/
+
+
+@media screen and (min-width: 480px) {
+  
+  
+  #primary {
+    width: 50%;
+    float: left;
+  }
+  
+  #secondary {
+    width: 40%;
+    float: right;
+  }
+
+
+#gallery li {
+  float: left;
+  width: 28.3333%;
+  margin: 2.5%;
+  color: black;
+}
+
+ .content-work {
+    clear:left;
+    margin: 0 5% 0 5%;
+
+  }
+  /*
+
+  #gallery li:nth-child(4n) {
+    clear: left;
+  }
+*/
+}
+
+/******************
+min-width 880
+******************/
+
+@media screen and (min-width: 880px) {
+ 
+  nav {
+    background: none;
+    float: left;
+    margin: 0 0 0 5%;
+    text-align: left;
+
+  }
+
+  #wrapper {
+    clear:left;
+    max-width: none;
+    float: left;
+    margin: 0 0 0 5%;
+    text-align: left;
+    padding: 10px 0;
+    display: block;
+  }
+
+.contact {
+  font-size: 1.1em;
+  line-height: 1.6em;
+
+}
+
+.header {
+  float: left;
+  margin-left: 5%;
+  text-align: left;
+  width: 45%;
+  padding: 0 7px;
+}
+
+header span {
+  padding: 0 0 0 11px;
+
+}
+
+
+  #gallery li {
+    width: 20%;
+  }
+
+  #gallery li.first {
+    clear: left;
+  }
+
+  #primary {
+  clear:left;
+  margin: 10px 0 0 18px;
+
+  }
+
+   #secondary {
+  margin-top: 10px;
+
+  }
+
+ .content-work {
+    clear:left;
+    text-align: left;
+    margin: 0 0 0 7%;
+    padding: 15px 0 0 0;
+
+  }
+
+  footer {
+  font-size:1em;
+  text-align: left;
+  clear:both;
+  float: left;
+  margin: 0 0 0 5%;
+  padding: 30px 0 30px 0;
+  color: #000;
+}
+  footer a {
+    margin-left: 10px;
+  }
+
+}
