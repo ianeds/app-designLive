@@ -15,7 +15,7 @@
 <div id="wrapper">
     <div class="contact">
     <section id="primary">
-            Apparent is a graphic design agency based in Maastricht, the Netherlands..<br><br>
+            Apparent is a graphic design agency based in Maastricht, the Netherlands.<br><br>
     </section>
     <section id="secondary">
             <span class='bold'>Apparent Marketing</span><br>
