@@ -12,6 +12,7 @@
         <script src="shared/javascript.js"></script> 
         </head>
 <body>
+<?php include_once("analyticstracking.php") ?>
     <header>
         <div class="title">
             <span class="text-logo"><h1>apparent</h1></span>
