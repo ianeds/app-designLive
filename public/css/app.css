@@ -1,10 +1,28 @@
 /**********************************
 GENERAL
 ***********************************/
+@font-face {
+  font-family: 'NeutraText';
+  src: url("/shared/NeutraText-DemiItalic.woff") format("woff2"), url("/shared/NeutraText-DemiItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'NeutraText';
+  src: url("/shared/NeutraText-Book.woff") format("woff2"), url("/shared/NeutraText-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'NeutraText';
+  src: url("/shared/NeutraText-Demi.woff") format("woff2"), url("/shared/NeutraText-Demi.woff") format("woff");
+  font-weight: bold;
+  font-style: normal; }
+
 body {
-  font-family: Courier New, Courier, Times, Times New Roman, monospace, serif;
-  font-size: .9em;
-  line-height: 1em;
+  font-family: NeutraText;
+  font-style: normal;
+  font-size: 1em;
   background-color: #ffffff; }
 
 #wrapper {
@@ -28,20 +46,16 @@ a {
 .bold {
   font-weight: bold; }
 
-.bigBorder {
-  border-color: #8d8d8d;
-  border-style: solid;
-  border-width: 2px; }
+.blocky {
+  display: block;
+  margin: 15px 0 0 0; }
 
 .smallBorder {
   border-color: #8d8d8d;
   border-style: solid;
   border-width: 1px; }
 
-.categories {
-  padding: 0px 0px 0px 0px; }
-
-.content-proofs {
+.categories, .content-proofs {
   padding: 0px 0px 0px 0px; }
 
 .back-button {
@@ -49,22 +63,44 @@ a {
   font-size: 12px;
   padding: 0px 0px 0px 0px; }
 
-.deco {
-  color: black;
-  font-weight: bold; }
-
 /**********************************
-HEADING
+MIX-INs
+***********************************/
+/**********************************
+HEADER
 ***********************************/
 header {
   float: left;
   margin: 0 0 20px 0;
-  padding: 5px 0 0 0;
+  padding: 30px 0 0 0;
   width: 100%; }
 
-.header {
+.title {
   text-align: center;
-  margin: 0; }
+  margin: 0;
+  font-size: 2em;
+  font-family: 'NeutraText', sans-serif;
+  font-style: normal; }
+  .title h1 {
+    font-weight: bold;
+    font-style: italic;
+    font-size: .7em;
+    margin: 0 0 0 0; }
+  .title span.logo {
+    display: block; }
+  .title span.text-logo {
+    display: none; }
+  .title span.tag {
+    display: block;
+    font-size: .6em;
+    margin: 15px 0 0 0;
+    padding: 0 0 0 0; }
+  .title span.logo img {
+    width: 120px;
+    text-align: center;
+    font-family: NeutraText;
+    font-weight: bold;
+    font-style: italic; }
 
 /**********************************
 NAVIGATION
@@ -72,59 +108,43 @@ NAVIGATION
 nav {
   text-align: center;
   padding: 10px 0;
-  margin: 20px 0 20px; }
-
-nav ul {
-  list-style: none;
-  margin: 0 10px;
-  padding: 0;
-  font-size: 1em; }
-
-nav li {
-  display: inline-block; }
-
-nav a {
-  padding: 15px 10px;
-  text-decoration: none; }
-  nav a:link, nav a:visited {
-    color: #000000; }
-  nav a:hover {
-    color: #666666; }
-  nav a:active {
-    color: #000000; }
-
-nav a.active {
-  font-weight: bold; }
+  margin: 0px 0 20px; }
+  nav ul {
+    list-style: none;
+    margin: 0 0;
+    padding: 0;
+    font-size: 1em; }
+  nav li {
+    display: inline-block; }
+  nav a {
+    padding: 15px 10px;
+    text-decoration: none; }
+    nav a:link, nav a:visited {
+      color: #000000; }
+    nav a:hover {
+      color: #666666; }
+    nav a:active {
+      color: #000000; }
+    nav a.active {
+      font-weight: bold;
+      text-decoration: underline; }
 
 /******************
 GALLERIES
 ******************/
-#gallery {
+ul.gallery {
   margin: 0;
   padding: 0;
   list-style: none; }
-
-#gallery li {
-  float: left;
-  width: 45%;
-  margin: 2.5%;
-  color: black; }
-
-#gallery li a p {
-  margin: 0;
-  padding: 5%;
-  font-size: 0.9em; }
-
-#wv_gallery {
-  margin: 0;
-  padding: 0;
-  list-style: none; }
-
-#wv_gallery li {
-  float: none;
-  width: 100%;
-  margin: 2.5%;
-  color: black; }
+  ul.gallery li {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    color: black; }
+    ul.gallery li a p {
+      margin: 0;
+      padding: 5%;
+      font-size: 0.9em; }
 
 /******************
 CONTENT WORK
@@ -137,9 +157,24 @@ CONTENT WORK
 /******************
 CONTACT
 ******************/
-.contact {
-  font-size: .9em;
-  line-height: 1.4em; }
+ul.contact {
+  margin: 0 5%;
+  padding: 0;
+  list-style: none;
+  line-height: 1.5; }
+  ul.contact li a {
+    text-decoration: none;
+    border-bottom: 1px dotted; }
+  ul.contact li.primary {
+    display: block;
+    width: 100%;
+    float: left; }
+  ul.contact li.secondary {
+    clear: left;
+    display: block;
+    width: 100%;
+    float: left;
+    margin: 15px 0 0 0; }
 
 /******************
 FOOTER
@@ -150,11 +185,10 @@ footer {
   clear: both;
   padding: 30px 0 30px 0;
   color: #000; }
-
-footer a {
-  font-weight: bold;
-  text-decoration: none;
-  padding: 15px 10px; }
+  footer a {
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px 10px; }
 
 /******************
 ******************
@@ -167,31 +201,52 @@ RESPONSIVE
 min-width 480
 ******************/
 @media screen and (min-width: 480px) {
-  #primary {
-    width: 50%;
-    float: left; }
-  #secondary {
-    width: 40%;
-    float: right; }
-  #gallery li {
-    float: left;
+  .title h1 {
+    font-weight: bold;
+    font-style: italic;
+    display: inline-block; }
+  .title span {
+    display: block;
+    margin: 15px 0 0 0;
+    padding: 0 0 0 0px; }
+  ul.contact {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    ul.contact li.primary {
+      display: block;
+      width: 50%;
+      float: left;
+      margin-left: 2.5%;
+      margin-right: 0; }
+    ul.contact li.secondary {
+      clear: none;
+      display: block;
+      width: 40%;
+      float: right;
+      margin-top: 0%; }
+  ul.gallery li {
     width: 28.3333%;
     margin: 2.5%;
-    color: black; }
+    color: black;
+    text-align: center; }
   .content-work {
     clear: left;
-    margin: 0 5% 0 5%; }
-  /*
+    margin: 0 5% 0 5%; } }
+
+/*
 
   #gallery li:nth-child(4n) {
     clear: left;
   }
-*/ }
-
+*/
 /******************
 min-width 880
 ******************/
 @media screen and (min-width: 880px) {
+  header {
+    margin: 0 0 0 0;
+    padding: 40px 0 20px 0; }
   nav {
     background: none;
     float: left;
@@ -208,28 +263,44 @@ min-width 880
   .contact {
     font-size: 1.1em;
     line-height: 1.6em; }
-  .header {
+  .title {
     float: left;
     margin-left: 5%;
     text-align: left;
-    width: 45%;
-    padding: 0 7px; }
-  header span {
-    padding: 0 0 0 11px; }
-  #gallery li {
+    padding: 0 0 0 10px;
+    font-style: normal; }
+    .title h1 {
+      font-weight: bold;
+      font-style: italic;
+      font-size: 1.8em;
+      margin: 0 0 0 0; }
+    .title span.text-logo {
+      display: block;
+      float: left; }
+    .title span.logo {
+      display: block;
+      position: absolute;
+      top: 35px;
+      right: 5%; }
+    .title span.tag {
+      display: block;
+      clear: both;
+      padding: 15px 0 0 0; }
+  ul.gallery li {
     width: 20%; }
-  #gallery li.first {
-    clear: left; }
-  #primary {
-    clear: left;
-    margin: 10px 0 0 18px; }
-  #secondary {
+    ul.gallery li.first {
+      clear: left; }
+  ul.contact li.primary {
+    margin-top: 10px;
+    margin-left: 10px; }
+  ul.contact li.secondary {
     margin-top: 10px; }
   .content-work {
     clear: left;
     text-align: left;
     margin: 0 0 0 7%;
-    padding: 15px 0 0 0; }
+    padding: 15px 0 0 0;
+    font-size: 1.1em; }
   footer {
     font-size: 1em;
     text-align: left;
@@ -238,7 +309,10 @@ min-width 880
     margin: 0 0 0 5%;
     padding: 30px 0 30px 0;
     color: #000; }
-  footer a {
-    margin-left: 10px; } }
+    footer a {
+      margin-left: 10px; } }
+
+/*# sourceMappingURL=app.css.map */
+/*# sourceMappingURL=app.css.map */
 
 /*# sourceMappingURL=app.css.map */
