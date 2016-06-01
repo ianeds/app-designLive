@@ -16,7 +16,7 @@
     <header>
         <div class="title">
             <span class="text-logo"><h1>apparent</h1></span>
-            <span class="logo"><img src="/images/app-logo.svg"></span>
+            <span class="logo"><a href="/work"><img src="/images/app-logo.svg"></a></span>
             <span class="tag">
             graphic and interactive design
             </span>
