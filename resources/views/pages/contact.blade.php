@@ -14,14 +14,13 @@
 <div id="wrapper">
     <ul class="contact">
         <li class="primary">
-            Apparent is a graphic design agency based in Maastricht, the Netherlands.
+            Apparent Design is a graphic design agency based in Maastricht, the Netherlands.
             <span class="blocky"><a href="tel:+310615197033">+31 (0)6 151 97 033</a><br>
-            <a href="mailto:info@apparentdesign.com" target="_top" class=''>info@apparentdesign.com</a><br>
-            <a href="mailto:info@apparentmarketing.com" target="_top" class=''>info@apparentmarketing.com</a></span></li>
+            <a href="mailto:info@apparentdesign.com" target="_top" class=''>info@apparentdesign.com</a></span></li>
 
         <li class="secondary">
             <span class=''>
-            Apparent Marketing<br>
+            Apparent Design<br>
             Minckelersstraat 18<br>
             6211 GX Maastricht</span>
             <span class='blocky'><span class='bold'>KVK</span> 65483820<br>
