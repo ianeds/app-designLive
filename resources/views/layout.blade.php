@@ -9,32 +9,55 @@
         <title>Apparent | Graphic and interactive design studio</title>
         <link rel="stylesheet" href="/css/normalize.css" type="text/css">
         <link rel="stylesheet" href="/css/app.css" type="text/css">
-        <script src="shared/javascript.js"></script> 
-        </head>
+    </head>
 <body>
 <?php include_once("analyticstracking.php") ?>
-    <header>
-        <div class="title">
-            <span class="text-logo"><h1>apparent</h1></span>
-            <span class="logo"><a href="/work"><img src="/images/app-logo.svg"></a></span>
-            <span class="tag">
-            graphic and interactive design
-            </span>
-        </div>
-    </header>
 
-<nav>
-      <ul>
-          <li><a href='/work' class="active">Work</a></li>
-          <li><a href='/contact'>Contact</a></li>
-        </ul>
-</nav>
+<!-- start header -->
+<header id="siteheader" class="">
+    <div id="top-bar">
+        <div class="container">
+            <div class="row">
 
-@yield('main-gallery')
+<!-- nav menu button -->
 
-@yield('content-work')
+                <div class="topRow-4"> 
+                    <div class="dropnav" id="dropnav">
+                            <div class="dropnavIcon" id="dropnavIcon">    
+                            </div> 
+                    </div>
+
+            <!-- header wordmark -->
+                    <div class="headerLogo">
+                        <div id="logo">
+                            <a href="/"><img src="/images/apparent-logoB.svg" alt="Apparent Logo" class="h2Logo"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="topRow-8"> 
+
+        <!-- hideable dropdown menu  -->
+                    <div class="" id="dropnavMenu">
+                              <ul>
+                                <li class="mobile"><a href="/about">about</a></li>
+                                <li class="mobile"><a href="/">work</a></li>
+                              </ul> 
+                    </div> <!-- #dropnavMenu --> 
+                </div> <!-- topRow-8 -->
+            </div> <!-- .row -->
+        </div> <!-- .container -->
+    </div> <!-- #top-bar -->
+</header>
+
+<!-- end header -->
+
+@yield('main')
+
+@yield('bottom')
    
 @yield('footer')
-
+        <script src="/shared/jquery-2.2.4.js"></script>
+        <script src="/shared/javascript.js"></script> 
     </body>
 </html>

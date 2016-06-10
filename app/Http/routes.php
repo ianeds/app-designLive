@@ -15,24 +15,23 @@ use Illuminate\Http\Request;
 use App\Task;
 
 
-Route::get('/', 'PagesController@work');
+Route::get('/', 'PagesController@home');
 
 Route::get('/work', 'PagesController@work');
 
-Route::get('/contact', 'PagesController@contact');
-
+Route::get('/about', 'PagesController@about');
 
 Route::get('/touchscreen', 'PagesController@touchscreen');
 
-Route::get('/zune', 'PagesController@zune');
+Route::get('/inter', 'PagesController@inter');
 
-Route::get('/xbox', 'PagesController@xbox');
-
-Route::get('/msSearch', 'PagesController@msSearch');
+Route::get('/search', 'PagesController@search');
 
 Route::get('/bannerAds', 'PagesController@bannerAds');
 
-Route::get('/heavymetal', 'PagesController@heavymetal');
+Route::get('/posters', 'PagesController@posters');
+
+Route::get('/marks', 'PagesController@marks');
 
 Route::get('/trifold', 'PagesController@trifold');
 

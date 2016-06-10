@@ -1,17 +1,43 @@
 @extends ('layout')
 
-@section ('content-work')
-<section>
-	<div class="content-work">
-		<img class="smallBorder" src="images/touchscreen2x2_623x450.png"></a><br><br> 
-		Interactive design for a touch-screen kiosk
+@section ('main')
+<div id="workPages">
+	<div class="container">
+		<div class="workItems">
+			<span>
+			Interactive designs<br> for a touch-screen kiosk
+			</span>
+			
+			<div class="workImage touchscreen">
+				<img class="" src="images/ts_projectRed.png">
+			</div>
+			
+			<div class="workImage touchscreen">
+				<img class="" src="images/ts_tonesthemes.png">
+			</div>
+			
+			<div class="workImage touchscreen">
+				<img class="" src="images/ts_hotspots.png">
+			</div>
+			
+			<div class="workImage touchscreen">
+				<img class="" src="images/ts_biz.png">
+			</div>
+			
+		</div>
 	</div>
-</section>
+</main>
+
 @stop
 
 @section ('footer')
 <footer>
-	<a href='/work'>Back</a>
+	<div class="footerContainer">
+		<div class="footerBtn">
+			<a href='/'><img src="images/goback_btn.png" width="70" height="70"></a>
+			<a href='/inter'><img src="images/seemore_btn.png" width="70" height="70"></a>
+		</div> <!-- end .footerBtn -->
+	</div> <!-- end .footerContainer -->
 </footer>
 @stop
 
