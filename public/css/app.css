@@ -166,7 +166,7 @@ HEADER
           #top-bar .container .row .topRow-8 #dropnavMenu ul {
             display: block;
             width: 100%;
-            padding: 1em 0;
+            padding: .25em 0 1em 0;
             text-align: center;
             position: relative;
             list-style-type: none;
