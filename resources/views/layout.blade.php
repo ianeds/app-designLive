@@ -9,6 +9,10 @@
         <title>Apparent | Graphic and interactive design studio</title>
         <link rel="stylesheet" href="/css/normalize.css" type="text/css">
         <link rel="stylesheet" href="/css/app.css" type="text/css">
+        <meta property="og:title" content="Apparent Design" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://apparentdesign.com" />
+        <meta property="og:image" content="http://apparentdesign.com/images/apparent-full.png" />
     </head>
 <body>
 <?php include_once("analyticstracking.php") ?>
