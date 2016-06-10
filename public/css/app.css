@@ -137,7 +137,7 @@ HEADER
               margin: 0 auto;
               display: block; }
             #top-bar .container .row .topRow-4 .headerLogo #logo .h2Logo {
-              padding: 15px 0 0 0; }
+              padding: 15px 0 10px 0; }
             #top-bar .container .row .topRow-4 .headerLogo #logo h2 {
               font-size: 1.8em;
               line-height: .6em;
