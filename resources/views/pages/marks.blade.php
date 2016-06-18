@@ -5,8 +5,17 @@
 	<div class="container">
 		<div class="workItems">
 			<span>
-			Logo
+			Typography
 			</span>
+
+
+			<div class="workImage markstwo">
+				<img class="" src="images/trop_pre.png">
+			</div> <!-- end .workImages -->
+			
+			<!-- <div class="workImage marks">
+				<img class="" src="images/trop_pre.png">
+			</div> <!-- end .workImages -->
 
 			<div class="workImage marks">
 				<img class="" src="images/heavy_metal.svg">

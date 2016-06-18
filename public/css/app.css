@@ -271,7 +271,9 @@ WORK PAGES
       #workPages .container .workItems .posters {
         padding: 2em 0; }
       #workPages .container .workItems .marks {
-        padding: 0 1em; }
+        padding: 2em 1em; }
+      #workPages .container .workItems .markstwo {
+        padding: 2em 3em; }
 
 /******************
 ABOUT
@@ -522,7 +524,10 @@ WORK PAGES
         #workPages .container .workItems .posters {
           padding: 2em 4em; }
         #workPages .container .workItems .marks {
-          padding: 0 6em;
+          padding: 2em 8em;
+          margin: 0 auto; }
+        #workPages .container .workItems .markstwo {
+          padding: 2em 9em 2em 9em;
           margin: 0 auto; }
   /******************
 ABOUT

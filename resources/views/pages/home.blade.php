@@ -13,7 +13,7 @@
 
         <a href="/posters"><div class="previewItem" id="pre_sml"><img class="" src="images/argo-rocco_pre.png"></div></a>
 
-        <a href="/marks"><div class="previewItem"><img class="" src="images/heavy_metal_pre.png"></div></a>
+        <a href="/marks"><div class="previewItem"><img class="" src="images/trop_pre.png"></div></a>
 
     </div> <!-- end .container -->
 
