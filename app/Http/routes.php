@@ -31,7 +31,7 @@ Route::get('/bannerAds', 'PagesController@bannerAds');
 
 Route::get('/posters', 'PagesController@posters');
 
-Route::get('/marks', 'PagesController@marks');
+Route::get('/type', 'PagesController@type');
 
 Route::get('/trifold', 'PagesController@trifold');
 
