@@ -13,6 +13,7 @@
         <meta property="og:type" content="website" />
         <meta property="og:url" content="http://apparentdesign.com" />
         <meta property="og:image" content="http://apparentdesign.com/images/apparent-full.png" />
+        <meta name="p:domain_verify" content="a6f2514211f5379965a9573e5d03419e"/>
     </head>
 <body>
 <?php include_once("analyticstracking.php") ?>
