@@ -5,7 +5,7 @@
 	<div class="container">
 		<div class="workItems">
 			<span>
-			Interactive designs for Microsoft xBox
+			Interactive designs for Microsoft Xbox
 			</span>
 			
 			<div class="workImage inter">
