@@ -24,7 +24,7 @@
         <meta property="og:type" content="website" />
         <meta property="og:url" content="http://lampbureau.com" />
         <meta property="og:image" content="http://lampbureau.com/images/xxx.png" />
-        <meta name="p:domain_verify" content="a6f2514211f5379965a9573e5d03419e"/>
+        <meta name="p:domain_verify" content="4981f8f0b238c485a0cc493d2d644411"/>
     </head>
 <body>
 <?php include_once("analyticstracking.php") ?>
