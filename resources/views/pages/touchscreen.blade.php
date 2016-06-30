@@ -34,9 +34,9 @@
 <footer>
 	<div class="footerContainer">
 		<div class="footerBtn">
-			<a href='/posters'><img src="images/previous_btn.png" width="70" height="70"></a>
-			<a href='/'><img src="images/goback_btn.png" width="70" height="70"></a>
-			<a href='/inter'><img src="images/seemore_btn.png" width="70" height="70"></a>
+				<a href='/posters' class="previous"></a>
+			<a href='/' class="goback"></a>
+			<a href='/inter' class="seemore"></a>
 		</div> <!-- end .footerBtn -->
 	</div> <!-- end .footerContainer -->
 </footer>

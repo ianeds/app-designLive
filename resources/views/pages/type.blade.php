@@ -33,8 +33,8 @@
 <footer>
 	<div class="footerContainer">
 		<div class="footerBtn">
-			<a href='/'><img src="images/goback_btn.png" width="70" height="70"></a>
-			<a href='/posters'><img src="images/seemore_btn.png" width="70" height="70"></a>
+			<a href='/' class="goback"></a>
+			<a href='/posters' class="seemore"></a>
 		</div> <!-- end .footerBtn -->
 	</div> <!-- end .footerContainer -->
 </footer>

@@ -19,9 +19,37 @@ GENERAL
   font-weight: bold;
   font-style: normal; }
 
+@font-face {
+  font-family: "nimbus-sans";
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "nimbus-sans";
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: "source-sans-pro";
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "source-sans-pro";
+  font-weight: 700;
+  font-style: normal; }
+
+.wf-loading .mobile, .wf-loading .contactItem, .wf-loading .workItems {
+  visibility: hidden; }
+
+.wf-active .mobile, .wf-active .contactItem, .wf-active .workItems,
+.wf-inactive .mobile, .wf-inactive .contactItem, .wf-inactive .workItems {
+  visibility: visible; }
+
 body {
-  font-family: NeutraText;
+  font-family: "source-sans-pro",sans-serif;
   font-style: normal;
+  font-weight: 400;
   font-size: 1em;
   line-height: 1em;
   background-color: #fff;
@@ -146,7 +174,7 @@ HEADER
               -webkit-margin-after: 0em;
               -webkit-margin-start: 0;
               -webkit-margin-end: 0;
-              font-weight: bold; }
+              font-weight: 700; }
         #top-bar .container .row .topRow-4 .menu1-1 {
           display: none;
           padding: 30px 0 0 30px;
@@ -162,7 +190,10 @@ HEADER
         #top-bar .container .row .topRow-8 #dropnavMenu {
           display: none;
           box-sizing: border-box;
-          margin: 10px auto 0 auto; }
+          margin: 10px auto 0 auto;
+          border-bottom-style: dotted;
+          border-bottom-width: 1px;
+          border-color: #666666; }
           #top-bar .container .row .topRow-8 #dropnavMenu ul {
             display: block;
             width: 100%;
@@ -178,8 +209,8 @@ HEADER
               padding: 0;
               width: 100%;
               display: block;
-              font-size: 1.3em;
-              font-weight: bold;
+              font-size: 1.2em;
+              font-weight: 400;
               margin: .7em auto 0 auto;
               color: #000;
               text-align: center;
@@ -299,7 +330,9 @@ ABOUT
       display: block;
       margin: 15px 0 0 0; }
     #contactColumn .contactItem span.bold {
-      font-weight: bold; }
+      font-weight: 700; }
+    #contactColumn .contactItem ul.servicesList {
+      line-height: 1.4em; }
   #contactColumn a {
     text-decoration: none;
     border-bottom: 1px dotted; }
@@ -323,16 +356,61 @@ footer {
   padding: 30px 0 30px 0;
   color: #000; }
   footer a {
-    font-weight: bold;
+    font-weight: 700;
     text-decoration: none;
     padding: 15px 10px; }
   footer .footerContainer {
     padding: 0 0 2.5em 0; }
-    footer .footerContainer .footerBtn a {
-      cursor: pointer;
-      padding: 0 .5em 0 .5em; }
-    footer .footerContainer .footerBtn img {
-      display: inline; }
+    footer .footerContainer .footerBtn {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      footer .footerContainer .footerBtn a.goback {
+        cursor: pointer;
+        display: inline-block;
+        width: 70px;
+        height: 90px;
+        background-image: url("/images/goback_btn.svg");
+        background-size: 160px;
+        background-position: 0px 0px;
+        background-repeat: no-repeat; }
+        footer .footerContainer .footerBtn a.goback:hover {
+          background-position: -79px 0px; }
+        footer .footerContainer .footerBtn a.goback:active {
+          background-position: -79px 0px; }
+        footer .footerContainer .footerBtn a.goback:focus {
+          background-position: -79px 0px; }
+      footer .footerContainer .footerBtn a.seemore {
+        cursor: pointer;
+        display: inline-block;
+        width: 70px;
+        height: 90px;
+        background-image: url("/images/seemore_btn.svg");
+        background-size: 160px;
+        background-position: 0px 0px;
+        background-repeat: no-repeat; }
+        footer .footerContainer .footerBtn a.seemore:hover {
+          background-position: -79px 0px; }
+        footer .footerContainer .footerBtn a.seemore:active {
+          background-position: -79px 0px; }
+        footer .footerContainer .footerBtn a.seemore:focus {
+          background-position: -79px 0px; }
+      footer .footerContainer .footerBtn a.previous {
+        cursor: pointer;
+        display: inline-block;
+        width: 70px;
+        height: 90px;
+        background-image: url("/images/previous_btn.svg");
+        background-size: 160px;
+        background-position: 0px 0px;
+        background-repeat: no-repeat; }
+        footer .footerContainer .footerBtn a.previous:hover {
+          background-position: -79px 0px; }
+        footer .footerContainer .footerBtn a.previous:active {
+          background-position: -79px 0px; }
+        footer .footerContainer .footerBtn a.previous:focus {
+          background-position: -79px 0px; }
 
 /******************
 ******************
@@ -407,7 +485,7 @@ HEADER
                 -webkit-margin-after: 0em;
                 -webkit-margin-start: 0;
                 -webkit-margin-end: 0;
-                font-weight: bold; }
+                font-weight: 700; }
         #top-bar .container .row .topRow-8 {
           position: relative;
           height: 80px;
@@ -419,7 +497,9 @@ HEADER
             display: block !important;
             box-sizing: border-box;
             margin: .9em 0 0 0;
-            float: right; }
+            float: right;
+            border-bottom-style: none;
+            border-bottom-width: 0; }
             #top-bar .container .row .topRow-8 #dropnavMenu ul {
               display: block;
               margin: 0;
@@ -433,8 +513,8 @@ HEADER
               float: right; }
               #top-bar .container .row .topRow-8 #dropnavMenu ul li.mobile {
                 display: inline;
-                font-size: 1.5em;
-                font-weight: bold;
+                font-size: 1.3em;
+                font-weight: 400;
                 padding: 0 1.5em 0 0;
                 color: #000;
                 border: 0; }
@@ -533,35 +613,42 @@ WORK PAGES
 ABOUT
 ******************/
   #contactColumn {
-    margin: 0 auto;
+    margin: 30px auto;
     box-sizing: border-box;
     max-width: 940px;
     padding: 6em 0 0 0; }
     #contactColumn .contactItem {
       display: block;
+      box-sizing: border-box;
       float: left;
       position: relative;
       margin: 0;
-      padding: 0 2.5%;
-      width: 44%;
+      padding: 0;
       clear: none; }
     #contactColumn p {
       margin: 0;
       padding: 0;
+      line-height: 1.4em; }
+    #contactColumn ul.servicesList {
       line-height: 1.4em; }
     #contactColumn span.blocky {
       display: block;
       margin: 15px 0 0 0; }
     #contactColumn span.noTop {
       display: block;
-      margin-top: 0; }
+      margin-top: 0;
+      line-height: 1.4em; }
     #contactColumn span.bold {
-      font-weight: bold; }
+      font-weight: 700; }
     #contactColumn a {
       text-decoration: none;
       border-bottom: 1px dotted; }
     #contactColumn .primary {
-      padding: 0 3%; } }
+      padding: 0 3% 0 3%;
+      width: 60%; }
+    #contactColumn .secondary {
+      padding: 0 3% 0 3%;
+      width: 40%; } }
 
 /******************
 FOOTER

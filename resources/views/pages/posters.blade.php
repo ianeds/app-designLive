@@ -30,9 +30,9 @@
 <footer>
 	<div class="footerContainer">
 		<div class="footerBtn">
-			<a href='/type'><img src="images/previous_btn.png" width="70" height="70"></a>
-			<a href='/'><img src="images/goback_btn.png" width="70" height="70"></a>
-			<a href='/touchscreen'><img src="images/seemore_btn.png" width="70" height="70"></a>
+			<a href='/type' class="previous"></a>
+			<a href='/' class="goback"></a>
+			<a href='/touchscreen' class="seemore"></a>
 		</div> <!-- end .footerBtn -->
 	</div> <!-- end .footerContainer -->
 </footer>

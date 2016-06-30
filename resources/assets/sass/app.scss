@@ -1,6 +1,7 @@
 /**********************************
 GENERAL
 ***********************************/
+//NeutraText
 @font-face 
 {
   font-family: 'NeutraText';
@@ -25,10 +26,58 @@ GENERAL
   font-style: normal;
 }
 
+//nimbus sans
+@font-face
+{
+  font-family:"nimbus-sans";
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face
+{
+  font-family:"nimbus-sans";
+  font-weight: 700;
+  font-style: normal;
+}
+
+//source sans pro
+@font-face
+{
+  font-family:"source-sans-pro";
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face
+{
+  font-family:"source-sans-pro";
+  font-weight: 700;
+  font-style: normal;
+}
+
+//typekit FOUT styles
+
+.wf-loading .mobile, .wf-loading .contactItem, .wf-loading .workItems 
+{
+
+visibility: hidden;
+
+}
+
+.wf-active .mobile, .wf-active .contactItem, .wf-active .workItems, 
+.wf-inactive .mobile, .wf-inactive .contactItem, .wf-inactive .workItems 
+{
+
+visibility: visible;
+
+}
+
 body 
 {
-  font-family: NeutraText;
+  font-family: "source-sans-pro",sans-serif;
   font-style: normal;
+  font-weight: 400;
   font-size: 1em;
   line-height: 1em;
   background-color: #fff;
@@ -316,7 +365,7 @@ top: 0px;
               -webkit-margin-after:0em;
               -webkit-margin-start: 0;
               -webkit-margin-end: 0;
-              font-weight: bold;
+              font-weight: 700;
             } // end h2
 
           } // end #logo
@@ -350,6 +399,9 @@ top: 0px;
         box-sizing: border-box;
         //margin: 0 auto;
         margin: 10px auto 0 auto;
+        border-bottom-style: dotted;
+        border-bottom-width: 1px;
+        border-color: #666666;
          //z-index:1;
 
           ul 
@@ -371,8 +423,8 @@ top: 0px;
               padding: 0;
               width: 100%;
               display: block;
-              font-size: 1.3em;
-              font-weight: bold;
+              font-size: 1.2em;
+              font-weight: 400;
               margin: .7em auto 0 auto;
               color: #000;
               text-align: center;
@@ -616,9 +668,14 @@ ABOUT
 
     span.bold 
     {
-    font-weight: bold;
+    font-weight: 700;
     } // end span.bold
-  }
+
+    ul.servicesList
+    {
+      line-height: 1.4em;
+    } //end ul.servicesList
+  } // .contactItem
 
   a 
   {
@@ -640,6 +697,7 @@ ABOUT
   margin: 15px 0 0 0;
   clear:left;
   } // end .secondary
+  
 } // end #contactColumn 
 
 
@@ -656,7 +714,7 @@ footer
   color: #000;
   a 
   {
-    font-weight: bold;
+    font-weight: 700;
     text-decoration: none;
     padding: 15px 10px;
   }
@@ -665,18 +723,96 @@ footer
   {
   padding: 0 0 2.5em 0;
     
-    .footerBtn 
+    .footerBtn
     {
+      display: flex;
+      justify-content: center;
       
-      a 
+      a.goback 
       {
       cursor: pointer;
-      padding: 0 .5em 0 .5em;
-      } // end a
+      display: inline-block;
+      width: 70px;
+      height: 90px;
+      background-image: url("/images/goback_btn.svg");
+      background-size: 160px;
+      background-position: 0px 0px;
+      background-repeat: no-repeat;
+  
+        &:hover
+        {
+        background-position: -79px 0px;
+        } // end a.goback:hover
+
+        &:active
+        {
+        background-position: -79px 0px;
+        } // end a.goback:active
+
+        &:focus
+        {
+        background-position: -79px 0px;
+        } // end a.goback:focus
+
+      } // end a.goback
+
+      a.seemore 
+      {
+      cursor: pointer;
+      display: inline-block;
+      width: 70px;
+      height: 90px;
+      background-image: url("/images/seemore_btn.svg");
+      background-size: 160px;
+      background-position: 0px 0px;
+      background-repeat: no-repeat;
+
+        &:hover
+        {
+        background-position: -79px 0px;
+        } // end a.seemore:hover
+
+        &:active
+        {
+        background-position: -79px 0px;
+        } // end a.seemore:active
+
+        &:focus
+        {
+        background-position: -79px 0px;
+        } // end a.seemore:focus
+      } // end a.seemore
+
+      a.previous 
+      {
+      cursor: pointer;
+      display: inline-block;
+      width: 70px;
+      height: 90px;
+      background-image: url("/images/previous_btn.svg");
+      background-size: 160px;
+      background-position: 0px 0px;
+      background-repeat: no-repeat;
+
+        &:hover
+        {
+        background-position: -79px 0px;
+        } // end a.previous:hover
+
+        &:active
+        {
+        background-position: -79px 0px;
+        } // end a.previous:active
+
+        &:focus
+        {
+        background-position: -79px 0px;
+        } // end a.previous:focus
+
+      } // end a.previous
 
       img 
       {
-        display: inline;
         
       } //end img
 
@@ -798,8 +934,7 @@ HEADER
                 -webkit-margin-after:0em;
                 -webkit-margin-start: 0;
                 -webkit-margin-end: 0;
-                font-weight: bold;
-
+                font-weight: 700;
               } //end h2
 
             } //end #logo
@@ -824,6 +959,8 @@ HEADER
           //margin: 0 auto;
           margin: .9em 0 0 0;
           float: right;
+          border-bottom-style: none;
+          border-bottom-width: 0;
         
             ul 
             {
@@ -844,8 +981,8 @@ HEADER
                   //padding: 0;
                   //width: 100%;
                   display: inline;
-                  font-size: 1.5em;
-                  font-weight: bold;
+                  font-size: 1.3em;
+                  font-weight: 400;
                   padding: 0 1.5em 0 0;
                   color: #000;
                   //text-align: center;
@@ -1056,7 +1193,7 @@ ABOUT
 
 #contactColumn 
   {
-    margin: 0 auto;
+    margin: 30px auto;
     box-sizing: border-box;
     max-width:940px;
     padding: 6em 0 0 0;
@@ -1064,11 +1201,12 @@ ABOUT
     .contactItem 
     {
       display: block;
+      box-sizing: border-box;
       float:left;
       position:relative;
       margin: 0;
-      padding: 0 2.5%;
-      width:44%;
+      padding: 0;
+   
       clear:none;
     } // end .contactItem 
 
@@ -1078,6 +1216,11 @@ ABOUT
       padding:0;
       line-height: 1.4em;
     } // end p
+    
+    ul.servicesList
+    {
+      line-height: 1.4em;
+    } //end ul.servicesList
 
     span.blocky 
     {
@@ -1089,11 +1232,12 @@ ABOUT
     {
       display: block;
       margin-top: 0;
+      line-height: 1.4em;
     } // end span.noTop
 
     span.bold 
     {
-      font-weight: bold;
+      font-weight: 700;
     } // end span.bold
 
     a 
@@ -1104,12 +1248,15 @@ ABOUT
 
     .primary 
     {
-      padding: 0 3%;
+      padding: 0 3% 0 3%;
+      width:60%;
 
     } // end .primary
 
     .secondary 
     {
+      padding: 0 3% 0 3%;
+      width:40%;
     } // end .secondary
 
   } //end #contactColumn 
