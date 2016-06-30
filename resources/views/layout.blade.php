@@ -23,7 +23,7 @@
         <meta property="og:title" content="Lamp Bureau" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="http://lampbureau.com" />
-        <meta property="og:image" content="http://lampbureau.com/images/lamp_logo1.png" />
+        <meta property="og:image" content="http://lampbureau.com/images/lamp_logo2.png" />
         <meta name="p:domain_verify" content="4981f8f0b238c485a0cc493d2d644411"/>
     </head>
 <body>
