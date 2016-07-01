@@ -5,15 +5,15 @@
 	<div class="container">
 		<div class="workItems">
 			<span>
-			Posters/Projects
+			Projects
 			</span>
 
 			<div class="workImage marks">
-				<img class="" src="images/blauw-kruis_700x540.png">
+				<img class="" src="images/block_design_pre.png">
 			</div> <!-- end .workImages -->
 
-			<div class="workImage posters">
-				<img class="" src="images/argo-rocco_pre.png">
+			<div class="workImage marks">
+				<img class="" src="images/blauw-kruis_700x540.png">
 			</div> <!-- end .workImages -->
 
 
