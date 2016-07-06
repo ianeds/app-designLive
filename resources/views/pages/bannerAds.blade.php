@@ -5,7 +5,7 @@
 	<div class="container">
 		<div class="workItems">
 			<span>
-			Banner ads for AT&T
+			Interactive banner ads for telecommunications company AT&T
 			</span>
 			
 			<div class="workImage bannerAds">
@@ -32,7 +32,7 @@
 <footer>
 	<div class="footerContainer">
 		<div class="footerBtn">
-			<a href='/search' class="previous"></a>
+			<a href='/type' class="previous"></a>
 			<a href='/' class="goback"></a>
 		</div> <!-- end .footerBtn -->
 	</div> <!-- end .footerContainer -->

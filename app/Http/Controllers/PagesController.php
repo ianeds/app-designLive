@@ -40,9 +40,9 @@ class PagesController extends Controller
     return view('/pages/bannerAds');
     }
 
-    public function posters()
+    public function projects()
     {
-    return view('/pages/posters');
+    return view('/pages/projects');
     }
 
     public function type()

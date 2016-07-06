@@ -29,7 +29,7 @@ Route::get('/search', 'PagesController@search');
 
 Route::get('/bannerAds', 'PagesController@bannerAds');
 
-Route::get('/posters', 'PagesController@posters');
+Route::get('/projects', 'PagesController@projects');
 
 Route::get('/type', 'PagesController@type');
 

@@ -487,24 +487,29 @@ HOMEPAGE PREVIEW CONTENT
   margin-right: auto;
   margin-left: auto;
   box-sizing: border-box;
+  text-align: center;
 
     .previewItem 
     {
     width: 100%;
-    display: block;
     float:left;
-    position:relative;
-    margin: 0;
+    //position:relative;
+    margin: 0 auto;
     padding: 3em;
+    box-sizing: border-box;
     -webkit-box-sizing: border-box;
     vertical-align: baseline;
+    text-align: center;
 
       span 
       {
       vertical-align: baseline;
-      float: left;
       bottom: 0px;
       font-size: 1em;
+      display: table;
+      margin: 0 auto;
+      box-sizing: border-box;
+      
       }
     } // end .previewItem
 
@@ -562,10 +567,9 @@ WORK PAGES
       display:table;
       box-sizing: border-box;
       } // end span
-      
+
       .workImage 
       {
-
       margin: 0 auto;
       padding: 2em;
 

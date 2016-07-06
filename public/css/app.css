@@ -241,21 +241,24 @@ HOMEPAGE PREVIEW CONTENT
   #mainColumn .container {
     margin-right: auto;
     margin-left: auto;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    text-align: center; }
     #mainColumn .container .previewItem {
       width: 100%;
-      display: block;
       float: left;
-      position: relative;
-      margin: 0;
+      margin: 0 auto;
       padding: 3em;
+      box-sizing: border-box;
       -webkit-box-sizing: border-box;
-      vertical-align: baseline; }
+      vertical-align: baseline;
+      text-align: center; }
       #mainColumn .container .previewItem span {
         vertical-align: baseline;
-        float: left;
         bottom: 0px;
-        font-size: 1em; }
+        font-size: 1em;
+        display: table;
+        margin: 0 auto;
+        box-sizing: border-box; }
     #mainColumn .container #pre_sml {
       padding: 3em .5em 3em .5em; }
     #mainColumn .container .first {

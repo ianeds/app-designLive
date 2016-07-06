@@ -5,7 +5,7 @@
 	<div class="container">
 		<div class="workItems">
 			<span>
-			Interactive designs for Microsoft Xbox
+			Web layout designs for Microsoft
 			</span>
 			
 			<div class="workImage inter">
@@ -15,7 +15,18 @@
 			<div id="horiz" class="workImage inter">
 				<img src="images/xbox_horiz.png">
 			</div> <!-- end .workImages -->
+			
+			<div class="workImage search">
+				<img class="" src="images/search_a.png">
+			</div> <!-- end .workImages -->
 
+			<div class="workImage search">
+				<img class="" src="images/search_c.png">
+			</div> <!-- end .workImages -->
+
+			<div class="workImage search">
+				<img class="" src="images/search_b.png">
+			</div> <!-- end .workImages -->
 			</div> <!-- end .workItem -->
 
 		</div> <!-- end .container -->
@@ -30,7 +41,7 @@
 		<div class="footerBtn">
 				<a href='/touchscreen' class="previous"></a>
 			<a href='/' class="goback"></a>
-			<a href='/search' class="seemore"></a>
+			<a href='/type' class="seemore"></a>
 		</div> <!-- end .footerBtn -->
 	</div> <!-- end .footerContainer -->
 </footer>

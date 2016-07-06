@@ -20,6 +20,7 @@
         <title>Lamp Bureau | Graphic design studio</title>
         <link rel="stylesheet" href="/css/normalize.css" type="text/css">
         <link rel="stylesheet" href="/css/app.css" type="text/css">
+        <link rel="stylesheet" href="/css/flexslider.css" type="text/css">
         <meta property="og:title" content="Lamp Bureau" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="http://lampbureau.com" />
@@ -73,8 +74,9 @@
 @yield('bottom')
    
 @yield('footer')
-        <script src="/shared/jquery-2.2.4.js"></script>
-        <script src="/shared/javascript.js"></script> 
+        <script type="text/javascript" src="/shared/jquery-2.2.4.js"></script>
+        <script type="text/javascript"  src="shared/jquery.flexslider.js"></script>
+        <script type="text/javascript" src="/shared/javascript.js"></script>
 
     </body>
 </html>
