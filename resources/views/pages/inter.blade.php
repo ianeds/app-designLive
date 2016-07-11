@@ -10,24 +10,17 @@
 			
 			<div class="workImage inter">
 				<img class="" src="images/xbox_vertical.png">
-			</div> <!-- end .workImages -->
+			</div> <!-- end .workImage -->
 
 			<div id="horiz" class="workImage inter">
 				<img src="images/xbox_horiz.png">
-			</div> <!-- end .workImages -->
+			</div> <!-- end .workImage -->
 			
 			<div class="workImage search">
 				<img class="" src="images/search_a.png">
-			</div> <!-- end .workImages -->
+			</div> <!-- end .workImage -->
 
-			<div class="workImage search">
-				<img class="" src="images/search_c.png">
-			</div> <!-- end .workImages -->
-
-			<div class="workImage search">
-				<img class="" src="images/search_b.png">
-			</div> <!-- end .workImages -->
-			</div> <!-- end .workItem -->
+			</div> <!-- end .workItems -->
 
 		</div> <!-- end .container -->
 
