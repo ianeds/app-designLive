@@ -10,9 +10,9 @@
 
 			<div class="flexslider workImage marks">
 				<ul class="slides">
+		        	<li><img class="" src="images/triptych_2_700x540.png"></li>
 		        	<li><img class="" src="images/triptych_1_700x540.png"></li>
 		        	<li><img class="" src="images/triptych_3_700x540.png"></li>
-		        	<li><img class="" src="images/triptych_2_700x540.png"></li>
 		    	</ul>
 	    	</div> <!-- end .flexslider -->
 
