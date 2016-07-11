@@ -662,6 +662,15 @@ ABOUT
       margin: 0;
       padding:0;
       line-height: 1.4em;
+      span 
+      {
+        a.no-underline
+          {
+          border-bottom: none;
+          } // end a.
+
+      } // end span
+
     } // end p
 
     span.blocky 
@@ -1210,7 +1219,6 @@ ABOUT
       position:relative;
       margin: 0;
       padding: 0;
-   
       clear:none;
     } // end .contactItem 
 
@@ -1219,6 +1227,16 @@ ABOUT
       margin: 0;
       padding:0;
       line-height: 1.4em;
+
+      span 
+      {
+        
+        a.no-underline
+        {
+        border-bottom: none;
+        } // end a.
+
+      } //end span
     } // end p
     
     ul.servicesList

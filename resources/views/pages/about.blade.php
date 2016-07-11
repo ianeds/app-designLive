@@ -4,7 +4,7 @@
 
 <main id="contactColumn">
     <div class="contactItem primary">
-        <p>Lamp Bureau is a graphic design consultancy that helps businesses, organizations, and people communicate their brand message through expressive and disciplined visual design.<br><br> Multidisciplinary and concept-driven, Lamp works across digital and print media. Our three main areas of service are:
+        <p>Lamp Bureau is a graphic design agency that helps businesses, organizations, and people communicate their brand message through expressive and disciplined visual design.<br><br> Multidisciplinary and concept-driven, Lamp works across digital and print media. Our three main areas of service are:
         <ul class="servicesList">
             <li>Web design: websites and other interactive applications
             </li>
@@ -20,6 +20,10 @@
             <span class="noTop">
                 <a href="tel:+310615197033">+31 (0)6 151 97 033</a><br>
                 <a href="mailto:info@lampbureau.com" target="_top" class=''>info@lampbureau.com</a><br><br>
+                
+                <a class="no-underline" href="https://www.instagram.com/lampbureau/" target="_blank"><img src="/images/instagram-icon.png" width=50px height=50px></a>&nbsp;&nbsp;
+                <a class="no-underline" href="https://www.pinterest.com/lampbureau" target="_blank"><img src="/images/pinterest-icon.png" width=50px height=50px></a><br><br>
+
                 Lamp Bureau<br>
                 Minckelersstraat 18<br>
                 6211 GX Maastricht
