@@ -10,6 +10,10 @@
 
 
 			<div class="workImage markstwo">
+				<img class="" src="images/e1_700x540.png">
+			</div> <!-- end .workImages -->
+
+			<div class="workImage markstwo">
 				<img class="" src="images/trop_animated_700x540.gif">
 			</div> <!-- end .workImages -->
 			
