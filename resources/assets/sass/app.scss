@@ -75,9 +75,9 @@ visibility: visible;
 
 body 
 {
-  font-family: "nimbus-sans",sans-serif;
+  font-family: "NeutraText",sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   font-size: 1em;
   line-height: 1em;
   background-color: #fff;
@@ -365,7 +365,7 @@ top: 0px;
               -webkit-margin-after:0em;
               -webkit-margin-start: 0;
               -webkit-margin-end: 0;
-              font-weight: 700;
+              font-weight: bold;
             } // end h2
 
           } // end #logo
@@ -424,7 +424,7 @@ top: 0px;
               width: 100%;
               display: block;
               font-size: 1.2em;
-              font-weight: 400;
+              font-weight: normal;
               margin: .7em auto 0 auto;
               color: #000;
               text-align: center;
@@ -681,7 +681,7 @@ ABOUT
 
     span.bold 
     {
-    font-weight: 700;
+    font-weight: bold;
     } // end span.bold
 
     ul.servicesList
@@ -727,7 +727,7 @@ footer
   color: #000;
   a 
   {
-    font-weight: 700;
+    font-weight: bold;
     text-decoration: none;
     padding: 15px 10px;
   }
@@ -947,7 +947,7 @@ HEADER
                 -webkit-margin-after:0em;
                 -webkit-margin-start: 0;
                 -webkit-margin-end: 0;
-                font-weight: 700;
+                font-weight: bold;
               } //end h2
 
             } //end #logo
@@ -995,7 +995,7 @@ HEADER
                   //width: 100%;
                   display: inline;
                   font-size: 1.3em;
-                  font-weight: 400;
+                  font-weight: normal;
                   padding: 0 1.5em 0 0;
                   color: #000;
                   //text-align: center;
@@ -1259,7 +1259,7 @@ ABOUT
 
     span.bold 
     {
-      font-weight: 700;
+      font-weight: bold;
     } // end span.bold
 
     a 
