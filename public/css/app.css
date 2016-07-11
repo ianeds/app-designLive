@@ -39,13 +39,22 @@ GENERAL
   font-weight: 700;
   font-style: normal; }
 
-.wf-loading .mobile, .wf-loading .contactItem, .wf-loading .workItems {
-  visibility: hidden; }
+/**
+.wf-loading .mobile, .wf-loading .contactItem, .wf-loading .workItems 
+{
 
-.wf-active .mobile, .wf-active .contactItem, .wf-active .workItems,
-.wf-inactive .mobile, .wf-inactive .contactItem, .wf-inactive .workItems {
-  visibility: visible; }
+visibility: hidden;
 
+}
+
+.wf-active .mobile, .wf-active .contactItem, .wf-active .workItems, 
+.wf-inactive .mobile, .wf-inactive .contactItem, .wf-inactive .workItems 
+{
+
+visibility: visible;
+
+}
+**/
 body {
   font-family: "NeutraText",sans-serif;
   font-style: normal;
