@@ -38,8 +38,9 @@
 <footer>
 	<div class="footerContainer">
 		<div class="footerBtn">
+			<a href='/touchscreen' class="previous"></a>
 			<a href='/' class="goback"></a>
-			<a href='/touchscreen' class="seemore"></a>
+			<a href='/inter' class="seemore"></a>
 		</div> <!-- end .footerBtn -->
 	</div> <!-- end .footerContainer -->
 </footer>
