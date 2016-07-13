@@ -2,6 +2,8 @@
 GENERAL
 ***********************************/
 //NeutraText
+
+
 @font-face 
 {
   font-family: 'NeutraText';
@@ -741,16 +743,21 @@ footer
       display: flex;
       justify-content: center;
       
-      a.goback 
+      a.arrow-buttons
       {
       cursor: pointer;
       display: inline-block;
       width: 70px;
       height: 90px;
-      background-image: url("/images/goback_btn.svg");
       background-size: 160px;
       background-position: 0px 0px;
       background-repeat: no-repeat;
+      } //end arrow-buttons
+        
+      a.goback 
+      {
+      @extend .arrow-buttons;
+      background-image: url("/images/goback_btn.svg");
   
         &:hover
         {
@@ -771,14 +778,8 @@ footer
 
       a.seemore 
       {
-      cursor: pointer;
-      display: inline-block;
-      width: 70px;
-      height: 90px;
+      @extend .arrow-buttons;
       background-image: url("/images/seemore_btn.svg");
-      background-size: 160px;
-      background-position: 0px 0px;
-      background-repeat: no-repeat;
 
         &:hover
         {
@@ -798,14 +799,8 @@ footer
 
       a.previous 
       {
-      cursor: pointer;
-      display: inline-block;
-      width: 70px;
-      height: 90px;
+      @extend .arrow-buttons;
       background-image: url("/images/previous_btn.svg");
-      background-size: 160px;
-      background-position: 0px 0px;
-      background-repeat: no-repeat;
 
         &:hover
         {
