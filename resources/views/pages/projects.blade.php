@@ -8,6 +8,10 @@
 			Illustration Projects
 			</span>
 
+			<div class="workImage marks">
+			<img class="" src="images/rect_pattern_700x540.png">
+			</div> <!-- end .workImages -->
+
 			<div class="flexslider workImage marks">
 				<ul class="slides">
 		        	<li><img class="" src="images/triptych_2_700x540.png"></li>
@@ -16,13 +20,13 @@
 		    	</ul>
 	    	</div> <!-- end .flexslider -->
 
+			
+			
 			<div class="workImage marks">
 				<img class="" src="images/block_design_pre.png">
 			</div> <!-- end .workImages -->
 
-			<div class="workImage marks">
-				<img class="" src="images/blauw-kruis_700x540.png">
-			</div> <!-- end .workImages -->
+			
 
 
 
