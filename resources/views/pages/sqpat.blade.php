@@ -5,22 +5,25 @@
 	<div class="container">
 		<div class="workItems">
 			<span>
-			Website layouts for Microsoft Search
+			Square pattern series
 			</span>
-			
-			<div class="workImage search">
-				<img class="" src="images/search_a.png">
+
+			<div class="workImage markstwo">
+			<img class="" src="images/squarePattern1_700x540.png">
 			</div> <!-- end .workImages -->
 
-			<div class="workImage search">
-				<img class="" src="images/search_c.png">
+			<div class="workImage markstwo">
+			<img class="" src="images/squarePattern2_700x540.png">
 			</div> <!-- end .workImages -->
 
-			<div class="workImage search">
-				<img class="" src="images/search_b.png">
+
+			<div class="workImage markstwo">
+			<img class="" src="images/squarePattern3_700x540.png">
 			</div> <!-- end .workImages -->
 
-			</div> <!-- end .workItem -->
+
+
+			</div> <!-- end .workItems -->
 
 		</div> <!-- end .container -->
 
@@ -32,12 +35,10 @@
 <footer>
 	<div class="footerContainer">
 		<div class="footerBtn">
-				<a href='/inter' class="previous"></a>
+			<a href='/jusquabout' class="previous"></a>
 			<a href='/' class="goback"></a>
 			<a href='/bannerAds' class="seemore"></a>
 		</div> <!-- end .footerBtn -->
 	</div> <!-- end .footerContainer -->
 </footer>
 @stop
-
-

@@ -10,6 +10,36 @@ class PagesController extends Controller
     return view('/pages/home');
     }
 
+    public function sqpat()
+    {
+    return view('/pages/sqpat');
+    }
+
+    public function trop()
+    {
+    return view('/pages/trop');
+    }
+
+    public function jusquabout()
+    {
+    return view('/pages/jusquabout');
+    }
+
+    public function simplethings()
+    {
+    return view('/pages/simplethings');
+    }
+
+    public function diamonds()
+    {
+    return view('/pages/diamonds');
+    }
+
+    public function wellthen()
+    {
+    return view('/pages/wellthen');
+    }
+
     public function work()
     {
     return view('/pages/work');

@@ -34,8 +34,9 @@
 <footer>
 	<div class="footerContainer">
 		<div class="footerBtn">
+			<a href='/wellthen' class="previous"></a>
 			<a href='/' class="goback"></a>
-			<a href='/projects' class="seemore"></a>
+			<a href='/diamonds' class="seemore"></a>
 		</div> <!-- end .footerBtn -->
 	</div> <!-- end .footerContainer -->
 </footer>

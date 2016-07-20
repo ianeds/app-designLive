@@ -14,8 +14,19 @@
 use Illuminate\Http\Request;
 use App\Task;
 
-
 Route::get('/', 'PagesController@home');
+
+Route::get('/sqpat', 'PagesController@sqpat');
+
+Route::get('/trop', 'PagesController@trop');
+
+Route::get('/jusquabout', 'PagesController@jusquabout');
+
+Route::get('/simplethings', 'PagesController@simplethings');
+
+Route::get('/diamonds', 'PagesController@diamonds');
+
+Route::get('/wellthen', 'PagesController@wellthen');
 
 Route::get('/work', 'PagesController@work');
 
@@ -25,15 +36,6 @@ Route::get('/touchscreen', 'PagesController@touchscreen');
 
 Route::get('/inter', 'PagesController@inter');
 
-Route::get('/search', 'PagesController@search');
-
 Route::get('/bannerAds', 'PagesController@bannerAds');
 
-Route::get('/projects', 'PagesController@projects');
-
-Route::get('/type', 'PagesController@type');
-
-Route::get('/trifold', 'PagesController@trifold');
-
-Route::get('/wvposter', 'PagesController@wvposter');
 

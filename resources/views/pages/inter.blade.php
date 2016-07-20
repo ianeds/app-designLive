@@ -32,9 +32,9 @@
 <footer>
 	<div class="footerContainer">
 		<div class="footerBtn">
-				<a href='/projects' class="previous"></a>
+			<a href='/diamonds' class="previous"></a>
 			<a href='/' class="goback"></a>
-			<a href='/type' class="seemore"></a>
+			<a href='/simplethings' class="seemore"></a>
 		</div> <!-- end .footerBtn -->
 	</div> <!-- end .footerContainer -->
 </footer>
