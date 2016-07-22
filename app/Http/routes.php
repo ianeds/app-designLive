@@ -16,6 +16,8 @@ use App\Task;
 
 Route::get('/', 'PagesController@home');
 
+Route::get('/qualitytime', 'PagesController@qualitytime');
+
 Route::get('/sqpat', 'PagesController@sqpat');
 
 Route::get('/trop', 'PagesController@trop');

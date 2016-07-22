@@ -10,6 +10,11 @@ class PagesController extends Controller
     return view('/pages/home');
     }
 
+    public function qualitytime()
+    {
+    return view('/pages/qualitytime');
+    }
+
     public function sqpat()
     {
     return view('/pages/sqpat');

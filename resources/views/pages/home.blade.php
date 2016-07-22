@@ -4,6 +4,8 @@
 <main id="mainColumn">
 	<div class="container">
 
+
+        <a href="/qualitytime"><div class="previewItem"><img class="" src="images/quality-time_700x540.png"></div></a>
         
 		<a href="/wellthen"><div class="previewItem"><img class="" src="images/well-then-2_700x540.png"></div></a>
 
