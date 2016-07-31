@@ -26,7 +26,8 @@
 
                 Lamp Bureau<br>
                 Minckelersstraat 18<br>
-                6211 GX Maastricht
+                6211 GX Maastricht<br>
+                The Netherlands
             </span>
             <span class='blocky'>
                 <span class='bold'>KVK</span> 65483820<br>
