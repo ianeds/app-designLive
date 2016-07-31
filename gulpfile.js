@@ -13,9 +13,10 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
-    mix.sass('app.scss');
+    mix.sass('main.scss');
 
 });
 
-
-
+elixir(function(mix) {
+    mix.copy('resources/images', 'public/images');
+});

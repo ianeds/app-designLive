@@ -37,7 +37,7 @@
 		<div class="footerBtn">
 			<a href='/jusquabout' class="previous"></a>
 			<a href='/' class="goback"></a>
-			<a href='/bannerAds' class="seemore"></a>
+			<a href='/trop' class="seemore"></a>
 		</div> <!-- end .footerBtn -->
 	</div> <!-- end .footerContainer -->
 </footer>

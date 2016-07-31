@@ -1,0 +1,93 @@
+/**********************************
+ANIMATIONS
+***********************************/
+
+@-webkit-keyframes {
+  from {
+    background-position:0
+  }
+  to {
+    background-position:100%
+  }
+}
+
+@-moz-keyframes play-fw {
+  from {
+    background-position:0
+  }
+  to {
+    background-position:100%
+  }
+}
+
+@-ms-keyframes play-fw {
+  from {
+    background-position:0
+  }
+  to {
+    background-position:100%
+  }
+}
+
+@-o-keyframes play-fw {
+  from {
+    background-position:0
+  }
+  to {
+    background-position:100%
+  }
+}
+
+@keyframes play-fw {
+  from {
+    background-position:0
+  }
+  to {
+    background-position:100%
+  }
+}
+
+@-webkit-keyframes play-bw {
+  from {
+    background-position:100%
+  }
+  to {
+    background-position:0
+  }
+
+}
+@-moz-keyframes play-bw {
+  from {
+    background-position:100%
+  }
+  to {
+    background-position:0
+  }
+}
+
+@-ms-keyframes play-bw {
+  from {
+    background-position:100%
+  }
+  to {
+    background-position:0
+  }
+}
+
+@-o-keyframes play-bw {
+  from {
+    background-position:100%
+  }
+  to {
+    background-position:0
+  }
+}
+
+@keyframes play-bw {
+  from {
+    background-position:100%
+  }
+  to {
+    background-position:0
+  }
+}

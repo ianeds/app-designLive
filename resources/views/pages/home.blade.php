@@ -5,26 +5,23 @@
 	<div class="container">
 
 
-        <a href="/qualitytime"><div class="previewItem"><img class="" src="images/quality-time_700x540.png"></div></a>
+        <div class="previewItem"><div class="qualitytime"><a href="/qualitytime"><img src="/images/quality-time_700x540.png"></a></div></div>
         
-		<a href="/wellthen"><div class="previewItem"><img class="" src="images/well-then-2_700x540.png"></div></a>
+		<div class="previewItem"><div class="wellthen"><a href="/wellthen"><img src="images/well-then-2_700x540.png"></a></div></div>
 
-        <a href="/touchscreen"><div class="first previewItem"><img class="" src="images/touchscreens_pre.png"></div></a>
+        <div class="previewItem"><div class="touchscreen"><a href="/touchscreen"><img src="images/touchscreens_pre.png"></a></div></div>
 
-        <a href="/diamonds"><div class="previewItem"><img class="" src="images/triptych_2_700x540.png"></div></a>
+        <div class="previewItem"><div class="diamonds"><a href="/diamonds"><img src="images/diamond_1_700x540.png"></a></div></div>
 
-        <a href="/inter"><div class="previewItem" id="pre_sml"><img class="" src="images/xbox_pre.png"></div></a>
+        <div class="previewItem"><div class="inter"><a href="/inter"><img src="images/inter-700x540.png"></a></div></div>
 
-        <a href="/simplethings"><div class="previewItem"><img class="" src="images/simple_things_700x540.png"></div></a>
+        <div class="previewItem"><div class="simplethings"><a href="/simplethings"><img src="images/simple_things_700x540.png"></a></div></div>
 
-        <a href="/jusquabout"><div class="previewItem"><img class="" src="images/jusqu-au-bout-700x540.png"></div></a>
+        <div class="previewItem"><div class="jusquabout"><a href="/jusquabout"><img src="images/jusqu-au-bout-700x540.png"></a></div></div>
 
+        <div class="previewItem"><div class="sqpat"><a href="/sqpat"><img src="images/squarePattern1_700x540.png"></a></div></div>
 
-        <a href="/sqpat"><div class="previewItem" id="pre_sml"><img class="" src="images/squarePattern1_700x540.png"></div></a>
-
-        <a href="/bannerAds"><div class="previewItem"><img class="" src="images/bannerAds_pre.png"></div></a>
-
-        <a href="/trop"><div class="previewItem"><img class="" src="images/trop_pre.png"></div></a>
+        <div class="previewItem"><div class="trop"><a href="/trop"><img src="images/trop_700x540.png"></a></div></div>
 
     </div> <!-- end .container -->
 

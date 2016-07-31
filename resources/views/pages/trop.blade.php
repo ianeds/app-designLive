@@ -9,7 +9,7 @@
 			</span>
 
 			<div class="workImage markstwo">
-			<img class="" src="images/trop_pre.png">
+			<img class="" src="images/trop_700x540.png">
 			</div> <!-- end .workImages -->
 
 			</div> <!-- end .workItems -->
@@ -24,7 +24,7 @@
 <footer>
 	<div class="footerContainer">
 		<div class="footerBtn">
-			<a href='/bannerAds' class="previous"></a>
+			<a href='/sqpat' class="previous"></a>
 			<a href='/' class="goback"></a>
 		</div> <!-- end .footerBtn -->
 	</div> <!-- end .footerContainer -->

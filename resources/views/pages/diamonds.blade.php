@@ -9,16 +9,16 @@
 			</span>
 		
 			<div class="workImage markstwo">
-			<img class="" src="images/triptych_2_700x540.png">
+			<img class="" src="images/diamond_2_700x540.png">
 			</div> <!-- end .workImages -->
 
 			<div class="workImage markstwo">
-			<img class="" src="images/triptych_1_700x540.png">
+			<img class="" src="images/diamond_1_700x540.png">
 			</div> <!-- end .workImages -->
 
 
 			<div class="workImage markstwo">
-			<img class="" src="images/triptych_3_700x540.png">
+			<img class="" src="images/diamond_3_700x540.png">
 			</div> <!-- end .workImages -->
 
 

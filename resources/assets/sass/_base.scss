@@ -1,0 +1,51 @@
+
+/******************
+BASE STYLES
+******************/
+
+body 
+{
+  font-family: "nimbus-sans",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1em;
+  background-color: #fff;
+  color: #000;
+} // end body
+
+#wrapper 
+{
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+} // end #wrapper
+
+* 
+{
+  //box-sizing: border-box;
+}
+
+img 
+{
+  max-width: 100%;
+} // end img
+
+a 
+{
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+  &:link, &:visited 
+  {
+    color: #000;
+  }
+  &:hover 
+  {
+    color: #000;
+  }
+  &:active 
+  {
+    color: #000;
+  }
+} // end a

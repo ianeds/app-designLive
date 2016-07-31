@@ -1,0 +1,83 @@
+/**********************************
+TYPOGRAPHY
+***********************************/
+//NeutraText
+
+
+@font-face 
+{
+  font-family: 'NeutraText';
+  src: url("/shared/NeutraText-DemiItalic.woff") format("woff2"), url("/shared/NeutraText-DemiItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face 
+{
+  font-family: 'NeutraText';
+  src: url("/shared/NeutraText-Book.woff") format("woff2"), url("/shared/NeutraText-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face 
+{
+  font-family: 'NeutraText';
+  src: url("/shared/NeutraText-Demi.woff") format("woff2"), url("/shared/NeutraText-Demi.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+//nimbus sans
+@font-face
+{
+  font-family:"nimbus-sans";
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face
+{
+  font-family:"nimbus-sans";
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face
+{
+  font-family:"nimbus-sans";
+  font-weight: 700;
+  font-style: normal;
+}
+
+//source sans pro
+@font-face
+{
+  font-family:"source-sans-pro";
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face
+{
+  font-family:"source-sans-pro";
+  font-weight: 700;
+  font-style: normal;
+}
+
+//typekit FOUT styles
+
+.wf-loading .mobile, .wf-loading .contactItem, .wf-loading .workItems 
+{
+
+visibility: hidden;
+
+}
+
+.wf-active .mobile, .wf-active .contactItem, .wf-active .workItems, 
+.wf-inactive .mobile, .wf-inactive .contactItem, .wf-inactive .workItems 
+{
+
+visibility: visible;
+
+}

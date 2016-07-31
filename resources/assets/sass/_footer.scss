@@ -1,0 +1,132 @@
+
+/******************
+FOOTER
+******************/
+
+footer 
+{
+  font-size: 1em;
+  text-align: center;
+  clear: both;
+  padding: 30px 0 30px 0;
+  color: #000;
+  a 
+  {
+    font-weight: 700;
+    text-decoration: none;
+    padding: 15px 10px;
+  }
+
+  .footerContainer
+  {
+  padding: 0 0 2.5em 0;
+    
+    .footerBtn
+    {
+      display: flex;
+      justify-content: center;
+      
+      a.arrow-buttons
+      {
+      cursor: pointer;
+      display: inline-block;
+      width: 70px;
+      height: 90px;
+      background-size: 160px;
+      background-position: 0px 0px;
+      background-repeat: no-repeat;
+      } //end arrow-buttons
+        
+      a.goback 
+      {
+      @extend .arrow-buttons;
+      background-image: url("/images/goback_btn.svg");
+  
+        &:hover
+        {
+        background-position: -79px 0px;
+        } // end a.goback:hover
+
+        &:active
+        {
+        background-position: -79px 0px;
+        } // end a.goback:active
+
+        &:focus
+        {
+        background-position: -79px 0px;
+        } // end a.goback:focus
+
+      } // end a.goback
+
+      a.seemore 
+      {
+      @extend .arrow-buttons;
+      background-image: url("/images/seemore_btn.svg");
+
+        &:hover
+        {
+        background-position: -79px 0px;
+        } // end a.seemore:hover
+
+        &:active
+        {
+        background-position: -79px 0px;
+        } // end a.seemore:active
+
+        &:focus
+        {
+        background-position: -79px 0px;
+        } // end a.seemore:focus
+      } // end a.seemore
+
+      a.previous 
+      {
+      @extend .arrow-buttons;
+      background-image: url("/images/previous_btn.svg");
+
+        &:hover
+        {
+        background-position: -79px 0px;
+        } // end a.previous:hover
+
+        &:active
+        {
+        background-position: -79px 0px;
+        } // end a.previous:active
+
+        &:focus
+        {
+        background-position: -79px 0px;
+        } // end a.previous:focus
+
+      } // end a.previous
+
+      img 
+      {
+        
+      } //end img
+
+    } // end .footerBtn
+
+  } // end .footerContainer
+
+} //end main section footer 
+
+/******************
+******************
+
+RESPONSIVE
+
+******************
+******************/
+
+/******************
+min-width 840px
+******************/
+/*
+@media screen and (min-width: 840px) 
+{
+
+} // end media query min-width 840px
+*/

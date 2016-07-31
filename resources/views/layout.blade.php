@@ -14,12 +14,12 @@
           })(document);
         </script>
 
-        <meta name="keywords" content="graphic design,web,branding">
+        <meta name="keywords" content="graphic design,web,branding,identity,logo,print design">
         <meta name="author" content="Lamp Bureau">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Lamp Bureau | Graphic design studio</title>
+        <title>Lamp Bureau | Graphic design agency</title>
         <link rel="stylesheet" href="/css/normalize.css" type="text/css">
-        <link rel="stylesheet" href="/css/app.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
         <link rel="stylesheet" href="/css/flexslider.css" type="text/css">
         <meta property="og:title" content="Lamp Bureau" />
         <meta property="og:type" content="website" />
