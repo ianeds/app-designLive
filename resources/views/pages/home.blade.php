@@ -5,15 +5,15 @@
 	<div class="container">
 
 
-        <div class="previewItem"><div class="qualitytime"><a href="/qualitytime"><img src="/images/quality-time_700x540.png"></a></div><span class="preview-mobile-text"><span class="ital">Quality time</span> illustration</span></div>
+        <div class="previewItem"><div class="qualitytime"><a href="/qualitytime"><img src="/images/quality-time_700x540.png"></a></div><span class="preview-mobile-text top-padding"><span class="ital">Quality time</span> illustration</span></div>
         
 		<div class="previewItem"><div class="wellthen"><a href="/wellthen"><img src="images/well-then-2_700x540.png"></a></div><span class="preview-mobile-text"><span class="ital">Well then</span> illustration</span></div>
 
-        <div class="previewItem"><div class="touchscreen"><a href="/touchscreen"><img src="images/touchscreens_pre.png"></a></div><span class="preview-mobile-text">Touch-screen kiosk designs</span></div>
+        <div class="previewItem"><div class="touchscreen"><a href="/touchscreen"><img src="images/touchscreens_pre.png"></a></div><span class="preview-mobile-text top-padding">Touch-screen kiosk designs</span></div>
 
-        <div class="previewItem"><div class="diamonds"><a href="/diamonds"><img src="images/diamond_1_700x540.png"></a></div><span class="preview-mobile-text"><span class="ital">Diamonds</span> illustrations</span></div>
+        <div class="previewItem"><div class="diamonds"><a href="/diamonds"><img src="images/diamond_1_700x540.png"></a></div><span class="preview-mobile-text top-padding"><span class="ital">Diamonds</span> illustrations</span></div>
 
-        <div class="previewItem"><div class="inter"><a href="/inter"><img src="images/inter-700x540.png"></a></div><span class="preview-mobile-text">Web design</span></div>
+        <div class="previewItem"><div class="inter"><a href="/inter"><img src="images/inter-700x540.png"></a></div><span class="preview-mobile-text top-padding">Web design</span></div>
 
         <div class="previewItem"><div class="simplethings"><a href="/simplethings"><img src="images/simple_things_700x540.png"></a></div><span class="preview-mobile-text"><span class="ital">Simple things</span> illustration</span></div>
 
