@@ -5,7 +5,7 @@
 	<div class="container">
 		<div class="workItems">
 			<span>
-			<span class="ital">Trop / Too much</span>typographic study
+			<span class="ital">Trop</span>typographic study
 			</span>
 
 			<div class="workImage markstwo">

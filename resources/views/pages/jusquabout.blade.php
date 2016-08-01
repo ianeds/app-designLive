@@ -5,7 +5,7 @@
 	<div class="container">
 		<div class="workItems">
 			<span>
-			<span class="ital">Jusqu'au bout / Until the end</span>typographic study
+			<span class="ital">Jusqu'au bout</span>typographic study
 			</span>
 
 			<div class="workImage markstwo">

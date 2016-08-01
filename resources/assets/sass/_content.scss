@@ -44,16 +44,24 @@ HOMEPAGE (PREVIEW CONTENT
       background-repeat: no-repeat;
       } // end
 
-      span 
+      span.preview-mobile-text
       {
       vertical-align: baseline;
       bottom: 0px;
-      font-size: 1em;
+      font-size: 1.3em;
       display: table;
       margin: 0 auto;
       text-align: left;
       box-sizing: border-box;
-      } // end span
+      text-decoration: underline;
+
+        span.ital
+        {
+        font-style:italic;
+
+        }
+        
+      }
 
       .hover-template
       {
@@ -64,12 +72,12 @@ HOMEPAGE (PREVIEW CONTENT
 
         img
         {
-        opacity: 1;
-        transition: opacity .4s ease;
+        //opacity: 1;
+        //transition: opacity .4s ease;
 
           &:hover
           {
-          opacity: 0;
+          //opacity: 0;
           } //end hover
 
         } // end img
@@ -79,63 +87,63 @@ HOMEPAGE (PREVIEW CONTENT
       .qualitytime
       {
       @extend .hover-template;
-      background-image: url("/images/quality-time-hover-sml.svg");
+      //background-image: url("/images/quality-time-hover-sml.svg");
       
       } // end .qualitytime
 
       .wellthen
       {
       @extend .hover-template;
-      background-image: url("/images/well-then-hover-sml.svg");
+      //background-image: url("/images/well-then-hover-sml.svg");
 
       } // end .wellthen
 
       .touchscreen
       {
       @extend .hover-template;
-      background-image: url("/images/touchscreens-hover-sml.svg");
+      //background-image: url("/images/touchscreens-hover-sml.svg");
 
       } // end .touchscreen
 
       .diamonds
       {
       @extend .hover-template;
-      background-image: url("/images/diamonds-hover-sml.svg");
+      //background-image: url("/images/diamonds-hover-sml.svg");
 
       } // end .diamonds
 
       .inter
       {
       @extend .hover-template;
-      background-image: url("/images/inter-hover-sml.svg");
+      //background-image: url("/images/inter-hover-sml.svg");
 
       }
 
       .simplethings
       {
       @extend .hover-template;
-      background-image: url("/images/simple-things-hover-sml.svg");
+      //background-image: url("/images/simple-things-hover-sml.svg");
 
       } // end .simplethings
 
       .jusquabout
       {
       @extend .hover-template;
-      background-image: url("/images/jusquabout-hover-sml.svg");
+      //background-image: url("/images/jusquabout-hover-sml.svg");
 
       } // end .jusquabout
 
       .sqpat
       {
       @extend .hover-template;
-      background-image: url("/images/sqpat-hover-sml.svg");
+      //background-image: url("/images/sqpat-hover-sml.svg");
 
       } // end .sqpat
 
       .trop
       {
       @extend .hover-template;
-      background-image: url("/images/trop-hover-sml.svg");
+      //background-image: url("/images/trop-hover-sml.svg");
 
       } // end trop
 
@@ -405,14 +413,11 @@ HOMEPAGE PREVIEW CONTENT
         box-sizing: border-box;
         vertical-align: baseline;
         text-align: center;
-   
-        span 
+
+        span.preview-mobile-text
         {
-          font-size: .9em;
-          float: left;
-          bottom: 0px;
-          width:100%;
-        }//end span 
+        display: none;
+        }
 
       .hover-template
       {
