@@ -206,22 +206,29 @@ top: 0px;
             content: "";
             display:block;
             width: 80px;
-            margin: 1.1em auto 1.25em auto;
+            margin: 1.1em auto 0em auto;
             text-align: center;
             height:0px;
-            background:#fff;
-            border-bottom: 2px solid #fff;
+            //background:#000;
+            border-bottom: 2px dotted #000;
             } // end li::after
 
             a 
             {
             text-decoration: none;
             color: #fff;
+            border-bottom: 1px dotted #fff;
               
               &:hover 
               {
-              color: #767676;
               text-decoration: none;
+              border-bottom: 2px solid #fff;
+              } // end &:hover
+
+              &:active 
+              {
+              text-decoration: none;
+              border-bottom: 2px solid #fff;
               } // end &:hover
 
             } //end a

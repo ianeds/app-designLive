@@ -331,7 +331,18 @@ ABOUT PAGE
   a 
   {
     text-decoration: none;
-    border-bottom: 1px dotted;
+    border-bottom: 1px dotted #000;
+
+
+    &:hover
+    {
+    border-bottom: 2px solid #000;
+    }
+
+    &:active
+    {
+    border-bottom: 2px solid #000;
+    }
   } // end a
 
   .primary 
@@ -784,8 +795,14 @@ ABOUT PAGE
 
     a 
     {
-      text-decoration: none;
-      border-bottom: 1px dotted;
+
+
+      &:hover 
+      {
+
+
+      }
+
     } // end a
 
     .primary 
