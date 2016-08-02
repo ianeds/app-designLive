@@ -47,7 +47,7 @@
             <!-- header wordmark -->
                     <div class="headerLogo">
                         <div id="logo">
-                            <a href="/"><img src="/images/lamp_logo.svg" alt="Lamp logo" class="h2Logo"></a>
+                            <a href="/"><img src="/images/LAMP_logo_wht.svg" alt="Lamp logo" class="h2Logo"></a>
                         </div>
                     </div>
                 </div>
@@ -57,8 +57,8 @@
         <!-- hideable dropdown menu  -->
                     <div class="" id="dropnavMenu">
                               <ul>
-                                <li class="mobile"><a href="/about">About</a></li>
-                                <li class="mobile"><a href="/">Work</a></li>
+                                <li class="mobile"><a href="/about">ABOUT</a></li>
+                                <li class="mobile"><a href="/">WORK</a></li>
                               </ul> 
                     </div> <!-- #dropnavMenu --> 
                 </div> <!-- topRow-8 -->
@@ -74,9 +74,10 @@
 @yield('bottom')
    
 @yield('footer')
-        <script type="text/javascript" src="/shared/jquery-2.2.4.js"></script>
-        <script type="text/javascript"  src="shared/jquery.flexslider.js"></script>
-        <script type="text/javascript" src="/shared/javascript.js"></script>
+        <script type="text/javascript" src="/js/jquery-2.2.4.min.js"></script>
+        <script type="text/javascript" src="/js/velocity.min.js"></script>
+        <script type="text/javascript"  src="js/jquery.flexslider.js"></script>
+        <script type="text/javascript" src="/js/javascript.js"></script>
 
     </body>
 </html>

@@ -33,7 +33,6 @@ HOMEPAGE (PREVIEW CONTENT
     margin: 0 auto;
     padding: 3em;
     box-sizing: border-box;
-    -webkit-box-sizing: border-box;
     vertical-align: baseline;
     text-align: center;
 
@@ -75,80 +74,59 @@ HOMEPAGE (PREVIEW CONTENT
       background-size: cover;
       background-repeat: no-repeat;
 
-        img
-        {
-        //opacity: 1;
-        //transition: opacity .4s ease;
-
-          &:hover
-          {
-          //opacity: 0;
-          } //end hover
-
-        } // end img
-
       } // end .hover-template
 
       .qualitytime
       {
       @extend .hover-template;
-      //background-image: url("/images/quality-time-hover-sml.svg");
       
       } // end .qualitytime
 
       .wellthen
       {
       @extend .hover-template;
-      //background-image: url("/images/well-then-hover-sml.svg");
 
       } // end .wellthen
 
       .touchscreen
       {
       @extend .hover-template;
-      //background-image: url("/images/touchscreens-hover-sml.svg");
 
       } // end .touchscreen
 
       .diamonds
       {
       @extend .hover-template;
-      //background-image: url("/images/diamonds-hover-sml.svg");
 
       } // end .diamonds
 
       .inter
       {
       @extend .hover-template;
-      //background-image: url("/images/inter-hover-sml.svg");
 
       }
 
       .simplethings
       {
       @extend .hover-template;
-      //background-image: url("/images/simple-things-hover-sml.svg");
 
       } // end .simplethings
 
       .jusquabout
       {
       @extend .hover-template;
-      //background-image: url("/images/jusquabout-hover-sml.svg");
 
       } // end .jusquabout
 
       .sqpat
       {
       @extend .hover-template;
-      //background-image: url("/images/sqpat-hover-sml.svg");
 
       } // end .sqpat
 
       .trop
       {
       @extend .hover-template;
-      //background-image: url("/images/trop-hover-sml.svg");
 
       } // end trop
 
@@ -422,225 +400,207 @@ HOMEPAGE PREVIEW CONTENT
         span.preview-mobile-text
         {
         display: none;
-        }
+        } // end span.preview-mobile-text
 
-      .hover-template
-      {
-      cursor: pointer;
-      position: relative;
-      background-size: cover;
-      background-repeat: no-repeat;
-
-        img
+        .qualitytime
         {
-        opacity: 1;
-        transition: opacity .4s ease;
-
-          &:hover
-          {
-          opacity: 0;
-          } //end hover
-
-        } // end img
-
-      } // end .hover-template
-
-      .qualitytime
-      {
-      cursor: pointer;
-      position: relative;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-image: url("/images/quality-time-hover.svg");
-      
-        img
-        {
-        opacity: 1;
-        transition: opacity .4s ease;
-
-          &:hover
-          {
-          opacity: 0;
-          } //end hover
-
-        } // end img
-
-      } // end .qualitytime
-
-      .wellthen
-      {
-      cursor: pointer;
-      position: relative;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-image: url("/images/well-then-hover.svg");
-
-        img
-        {
-        opacity: 1;
-        transition: opacity .4s ease;
-
-          &:hover
-          {
-          opacity: 0;
-          } //end hover
-
-        } // end img
-
-      } // end .wellthen
-
-      .touchscreen
-      {
-      cursor: pointer;
-      position: relative;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-image: url("/images/touchscreens-hover.svg");
         
-        img
-        {
-        opacity: 1;
-        transition: opacity .4s ease;
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url("/images/quality-time-hover.svg");
 
-          &:hover
+          img
           {
-          opacity: 0;
-          } //end hover
+          opacity: 1;
+          transition: opacity .4s ease;
 
-        } // end img
-      } // end .touchscreen
+            &:hover
+            {
+            opacity: 0;
 
-      .diamonds
-      {
-      cursor: pointer;
-      position: relative;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-image: url("/images/diamonds-hover.svg");
 
-        img
+            } //end hover
+
+          } // end img
+
+        } // end .qualitytime
+
+        .wellthen
         {
-        opacity: 1;
-        transition: opacity .4s ease;
+        cursor: pointer;
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url("/images/well-then-hover.svg");
 
-          &:hover
+          img
           {
-          opacity: 0;
-          } //end hover
+          opacity: 1;
+          transition: opacity .4s ease;
 
-        } // end img
+            &:hover
+            {
+            opacity: 0;
+            } //end hover
 
-      } // end .diamonds
+          } // end img
 
-      .inter
-      {
-      cursor: pointer;
-      position: relative;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-image: url("/images/inter-hover.svg");
+        } // end .wellthen
 
-        img
+        .touchscreen
         {
-        opacity: 1;
-        transition: opacity .4s ease;
-
-          &:hover
+        cursor: pointer;
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url("/images/touchscreens-hover.svg");
+          
+          img
           {
-          opacity: 0;
-          } //end hover
+          opacity: 1;
+          transition: opacity .4s ease;
 
-        } // end img
+            &:hover
+            {
+            opacity: 0;
+            } //end hover
 
-      } // end .inter
+          } // end img
 
-      .simplethings
-      {
-      cursor: pointer;
-      position: relative;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-image: url("/images/simple-things-hover.svg");
-        
-        img
+        } // end .touchscreen
+
+        .diamonds
         {
-        opacity: 1;
-        transition: opacity .4s ease;
+        cursor: pointer;
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url("/images/diamonds-hover.svg");
 
-          &:hover
+          img
           {
-          opacity: 0;
-          } //end hover
+          opacity: 1;
+          transition: opacity .4s ease;
 
-        } // end img
+            &:hover
+            {
+            opacity: 0;
+            } //end hover
 
-      } // end .simplethings
+          } // end img
 
-      .jusquabout
-      {
-      cursor: pointer;
-      position: relative;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-image: url("/images/jusquabout-hover.svg");
+        } // end .diamonds
 
-        img
+        .inter
         {
-        opacity: 1;
-        transition: opacity .4s ease;
+        cursor: pointer;
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url("/images/inter-hover.svg");
 
-          &:hover
+          img
           {
-          opacity: 0;
-          } //end hover
+          opacity: 1;
+          transition: opacity .4s ease;
 
-        } // end img
+            &:hover
+            {
+            opacity: 0;
+            } //end hover
 
-      } // end .jusquabout
+          } // end img
 
-      .sqpat
-      {
-      cursor: pointer;
-      position: relative;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-image: url("/images/sqpat-hover.svg");
+        } // end .inter
 
-        img
+        .simplethings
         {
-        opacity: 1;
-        transition: opacity .4s ease;
-
-          &:hover
+        cursor: pointer;
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url("/images/simple-things-hover.svg");
+          
+          img
           {
-          opacity: 0;
-          } //end hover
+          opacity: 1;
+          transition: opacity .4s ease;
 
-        } // end img
+            &:hover
+            {
+            opacity: 0;
+            } //end hover
 
-      } // end .sqpat
+          } // end img
 
-      .trop
-      {
-      cursor: pointer;
-      position: relative;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-image: url("/images/trop-hover.svg");
+        } // end .simplethings
 
-        img
+        .jusquabout
         {
-        opacity: 1;
-        transition: opacity .4s ease;
+        cursor: pointer;
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url("/images/jusquabout-hover.svg");
 
-          &:hover
+          img
           {
-          opacity: 0;
-          } //end hover
+          opacity: 1;
+          transition: opacity .4s ease;
 
-        } // end img
+            &:hover
+            {
+            opacity: 0;
+            } //end hover
 
-      } // end trop
+          } // end img
+
+        } // end .jusquabout
+
+        .sqpat
+        {
+        cursor: pointer;
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url("/images/sqpat-hover.svg");
+
+          img
+          {
+          opacity: 1;
+          transition: opacity .4s ease;
+
+            &:hover
+            {
+            opacity: 0;
+            } //end hover
+
+          } // end img
+
+        } // end .sqpat
+
+        .trop
+        {
+        cursor: pointer;
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url("/images/trop-hover.svg");
+
+          img
+          {
+          opacity: 1;
+          transition: opacity .4s ease;
+
+            &:hover
+            {
+            opacity: 0;
+            } //end hover
+
+          } // end img
+
+        } // end trop
 
       } //end .previewItem
 
