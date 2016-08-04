@@ -1,7 +1,8 @@
 @extends ('layout')
+@include('includes.header-home')
 
 @section ('main')
-@include('includes.header-home')
+
 
 <main id="mainColumn">
 	<div class="container">

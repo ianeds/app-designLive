@@ -5,7 +5,7 @@
             <div class="row">
 
                     <div class="logo-top">
-                        <a href="/"><img src="/images/lamp_logo_wht.svg" alt="Lamp logo" class="h2Logo"></a>
+                        <a href="/"><img src="/images/lamp_logo_wht.png" alt="Lamp logo" class="h2Logo"></a>
                     </div>
 
                     <div class="navMenu">
