@@ -1,7 +1,8 @@
 @extends ('layout')
-@include('includes.header-home')
+
 
 @section ('main')
+@include('includes.header-home')
 <div id="workPages">
 	<div class="container">
 		<div class="workItems">
