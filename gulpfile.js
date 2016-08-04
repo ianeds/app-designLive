@@ -20,3 +20,7 @@ elixir(function(mix) {
 elixir(function(mix) {
     mix.copy('resources/images', 'public/images');
 });
+
+elixir(function(mix) {
+    mix.copy('resources/scripts/javascript.js', 'public/js/javascript.js');
+});

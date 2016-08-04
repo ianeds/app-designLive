@@ -19,8 +19,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Lamp Bureau | Graphic design agency</title>
         <link rel="stylesheet" href="/css/normalize.css" type="text/css">
-        <link rel="stylesheet" href="/css/main.css" type="text/css">
+        <!-- <link rel="stylesheet" href="/css/jquery.svg.css" type="text/css"> -->
         <link rel="stylesheet" href="/css/flexslider.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
         <meta property="og:title" content="Lamp Bureau" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="http://lampbureau.com" />
@@ -29,55 +30,18 @@
     </head>
 <body>
 <?php include_once("analyticstracking.php") ?>
-
 <!-- start header -->
-<header id="siteheader" class="">
-    <div id="top-bar">
-        <div class="container">
-            <div class="row">
-
-<!-- nav menu button -->
-
-                <div class="topRow-4"> 
-                    <div class="dropnav" id="dropnav">
-                            <div class="dropnavIcon" id="dropnavIcon">    
-                            </div> 
-                    </div>
-
-            <!-- header wordmark -->
-                    <div class="headerLogo">
-                        <div id="logo">
-                            <a href="/"><img src="/images/LAMP_logo_wht.svg" alt="Lamp logo" class="h2Logo"></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="topRow-8"> 
-
-        <!-- hideable dropdown menu  -->
-                    <div class="" id="dropnavMenu">
-                              <ul>
-                                <li class="mobile"><a href="/about">ABOUT</a></li>
-                                <li class="mobile"><a href="/">WORK</a></li>
-                              </ul> 
-                    </div> <!-- #dropnavMenu --> 
-                </div> <!-- topRow-8 -->
-            </div> <!-- .row -->
-        </div> <!-- .container -->
-    </div> <!-- #top-bar -->
-</header>
-
-<!-- end header -->
 
 @yield('main')
 
 @yield('bottom')
    
 @yield('footer')
-        <script type="text/javascript" src="/js/jquery-2.2.4.min.js"></script>
-        <script type="text/javascript" src="/js/velocity.min.js"></script>
-        <script type="text/javascript"  src="js/jquery.flexslider.js"></script>
-        <script type="text/javascript" src="/js/javascript.js"></script>
-
+        <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+        <script type="text/javascript" src="js/velocity.min.js"></script>
+        <script type="text/javascript" src="js/jquery.flexslider.js"></script>
+        <!--<script type="text/javascript" src="js/jquery.svg.min.js"></script>
+        <script type="text/javascript" src="js/jquery.svgdom.min.js"></script> -->
+        <script type="text/javascript" src="js/javascript.js"></script>
     </body>
 </html>

@@ -1,30 +1,26 @@
 @extends ('layout')
-@include('includes.header-home')
 
 @section ('main')
 <div id="workPages">
 	<div class="container">
 		<div class="workItems">
 			<span>
-			Square pattern series
+			Website layouts for Microsoft Search
 			</span>
-
-			<div class="workImage markstwo">
-			<img class="" src="images/squarePattern1_700x540.png">
+			
+			<div class="workImage search">
+				<img class="" src="images/search_a.png">
 			</div> <!-- end .workImages -->
 
-			<div class="workImage markstwo">
-			<img class="" src="images/squarePattern2_700x540.png">
+			<div class="workImage search">
+				<img class="" src="images/search_c.png">
 			</div> <!-- end .workImages -->
 
-
-			<div class="workImage markstwo">
-			<img class="" src="images/squarePattern3_700x540.png">
+			<div class="workImage search">
+				<img class="" src="images/search_b.png">
 			</div> <!-- end .workImages -->
 
-
-
-			</div> <!-- end .workItems -->
+			</div> <!-- end .workItem -->
 
 		</div> <!-- end .container -->
 
@@ -36,10 +32,12 @@
 <footer>
 	<div class="footerContainer">
 		<div class="footerBtn">
-			<a href='/jusquabout' class="previous"></a>
+				<a href='/inter' class="previous"></a>
 			<a href='/' class="goback"></a>
-			<a href='/trop' class="seemore"></a>
+			<a href='/bannerAds' class="seemore"></a>
 		</div> <!-- end .footerBtn -->
 	</div> <!-- end .footerContainer -->
 </footer>
 @stop
+
+

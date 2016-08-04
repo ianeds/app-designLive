@@ -1,4 +1,5 @@
 @extends ('layout')
+@include('includes.header-home')
 
 @section ('main')
 <div id="workPages">
@@ -9,7 +10,7 @@
 			</span>
 
 			<div class="workImage markstwo">
-			<img class="" src="images/quality-time_700x540.png">
+			<img class="" src="images/quality-time_700x540.svg">
 			</div> <!-- end .workImages -->
 
 			</div> <!-- end .workItems -->

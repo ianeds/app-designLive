@@ -25,6 +25,16 @@ HOMEPAGE (PREVIEW CONTENT
   box-sizing: border-box;
   text-align: center;
 
+    .intro-p
+    {
+      p
+      {
+      display:block;
+      margin: 3em auto;
+      padding: 0 3em;
+      }
+    }
+
     .previewItem 
     {
     width: 100%;
@@ -33,6 +43,7 @@ HOMEPAGE (PREVIEW CONTENT
     margin: 0 auto;
     padding: 3em;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     vertical-align: baseline;
     text-align: center;
 
@@ -53,7 +64,21 @@ HOMEPAGE (PREVIEW CONTENT
       text-align: center;
       line-height: 1.3em;
       box-sizing: border-box;
-      text-decoration: underline;
+      text-decoration: none;
+      border-bottom: 1px dotted #000;
+      opacity: 0;
+
+            &:hover
+            {
+            border-bottom: 2px solid #000;
+            }
+
+            &:active
+            {
+            border-bottom: 2px solid #000;
+            }
+
+
 
         span.ital
         {
@@ -74,59 +99,108 @@ HOMEPAGE (PREVIEW CONTENT
       background-size: cover;
       background-repeat: no-repeat;
 
+        img
+        {
+        //opacity: 1;
+        //transition: opacity .4s ease;
+
+          &:hover
+          {
+          //opacity: 0;
+          } //end hover
+
+        } // end img
+
       } // end .hover-template
+
+      .css-anim
+      {
+      @extend .hover-template;
+
+      img
+        {
+        width: 100%;
+
+          &:hover
+          {
+          //opacity: 0;
+          } //end hover
+
+        } // end img
+
+      
+      } // end .css-anim
 
       .qualitytime
       {
+      opacity: 0;
       @extend .hover-template;
+      //background-image: url("/images/quality-time-hover-sml.svg");
+
       
       } // end .qualitytime
 
       .wellthen
       {
+        opacity: 0;
       @extend .hover-template;
+      //background-image: url("/images/well-then-hover-sml.svg");
 
       } // end .wellthen
 
       .touchscreen
       {
+        opacity: 0;
       @extend .hover-template;
+      //background-image: url("/images/touchscreens-hover-sml.svg");
 
       } // end .touchscreen
 
       .diamonds
       {
+        opacity: 0;
       @extend .hover-template;
+      //background-image: url("/images/diamonds-hover-sml.svg");
 
       } // end .diamonds
 
       .inter
       {
+        opacity: 0;
       @extend .hover-template;
+      //background-image: url("/images/inter-hover-sml.svg");
 
       }
 
       .simplethings
       {
+        opacity: 0;
       @extend .hover-template;
+      //background-image: url("/images/simple-things-hover-sml.svg");
 
       } // end .simplethings
 
       .jusquabout
       {
+        opacity: 0;
       @extend .hover-template;
+      //background-image: url("/images/jusquabout-hover-sml.svg");
 
       } // end .jusquabout
 
       .sqpat
       {
+        opacity: 0;
       @extend .hover-template;
+      //background-image: url("/images/sqpat-hover-sml.svg");
 
       } // end .sqpat
 
       .trop
       {
+        opacity: 0;
       @extend .hover-template;
+      //background-image: url("/images/trop-hover-sml.svg");
 
       } // end trop
 
@@ -217,13 +291,43 @@ WORK PAGES
 
       } // end .workImage
 
+      .css-anim
+      {
+
+
+
+        .scaling-svg 
+        {
+
+        } // end scaling.svg
+
+        .play 
+        {
+        color: #000;
+        font-size: 12px;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: block;
+        width: 80px;
+        border-radius: 30px;
+        margin: 20px auto;
+
+          &:hover
+          {
+          color: #656D78;
+          } // end hover
+
+        } // end play
+
+      } // end .css-anim
+
       .touchscreen 
       {
       //width: 50% !important;
       //padding: 2em;
 
       } //end .touchscreen
-      
+
       .inter 
       {
       padding: 2em 0 2em 0;
@@ -281,7 +385,7 @@ ABOUT PAGE
 #contactColumn 
 {
     margin: 30px auto 0 auto;
-    padding: 6em 2.5% 0 2.5%;
+    padding: 4em 2.5% 0 2.5%;
     width: auto;
 
   .contactItem 
@@ -296,54 +400,91 @@ ABOUT PAGE
     font-size: 1.1em;
 
     p 
-    {
+      {
       margin: 0;
       padding:0;
       line-height: 1.4em;
-      span 
-      {
-        a.no-underline
+
+
+        span.noTop 
+        {
+        display: block;
+        margin-top: 0;
+        line-height: 1.4em;
+        
+
+          a.phone-email
+          {
+          line-height: 1.8em;
+          text-decoration: none;
+          border-bottom: 1px dotted #000;
+
+            &:hover
+            {
+            border-bottom: 2px solid #000;
+            }
+
+            &:active
+            {
+            border-bottom: 2px solid #000;
+            }
+          } // end a.phone-email
+
+          a.no-underline
           {
           border-bottom: none;
-          } // end a.
+          text-decoration: none;
+            
+            img.social-icon
+            {
+              &:hover 
+              {
+              transform:rotate(30deg);
+              } // end &:hover
 
-      } // end span
+              &:active
+              {
+              transform:rotate(30deg);
+              } // end active
 
-    } // end p
+            } // end img social icon
+
+            img.twitter-icon
+            {
+                &:hover 
+              {
+              transform:rotate(-30deg);
+              } // end &:hover
+
+              &:active
+              {
+              transform:rotate(-30deg);
+              } // end active
+            } // end img twitter
+
+          }//end a.no-underline
+
+        } // end span.noTop
+
+      } // end p
 
     span.blocky 
     {
       display: block;
       margin: 15px 0 0 0;
-    } // end span.blocky 
 
-    span.bold 
-    {
-    font-weight: 700;
-    } // end span.bold
+      span.bold 
+      {
+      font-weight: 700;
+      } // end span.bold
+
+    } // end span.blocky 
 
     ul.servicesList
     {
       line-height: 1.4em;
     } //end ul.servicesList
   } // .contactItem
-
-  a 
-  {
-    text-decoration: none;
-    border-bottom: 1px dotted #000;
-
-
-    &:hover
-    {
-    border-bottom: 2px solid #000;
-    }
-
-    &:active
-    {
-    border-bottom: 2px solid #000;
-    }
-  } // end a
 
   .primary 
   {
@@ -411,26 +552,27 @@ HOMEPAGE PREVIEW CONTENT
         span.preview-mobile-text
         {
         display: none;
-        } // end span.preview-mobile-text
+        }
+
 
         .qualitytime
         {
-        
+        cursor: pointer;
         position: relative;
         background-size: cover;
         background-repeat: no-repeat;
         background-image: url("/images/quality-time-hover.svg");
-
+        opacity: 0;
+        
           img
           {
           opacity: 1;
           transition: opacity .4s ease;
+          background: #fff;
 
             &:hover
             {
             opacity: 0;
-
-
             } //end hover
 
           } // end img
@@ -444,7 +586,7 @@ HOMEPAGE PREVIEW CONTENT
         background-size: cover;
         background-repeat: no-repeat;
         background-image: url("/images/well-then-hover.svg");
-
+        opacity: 0;
           img
           {
           opacity: 1;
@@ -466,7 +608,7 @@ HOMEPAGE PREVIEW CONTENT
         background-size: cover;
         background-repeat: no-repeat;
         background-image: url("/images/touchscreens-hover.svg");
-          
+        opacity: 0;   
           img
           {
           opacity: 1;
@@ -478,7 +620,6 @@ HOMEPAGE PREVIEW CONTENT
             } //end hover
 
           } // end img
-
         } // end .touchscreen
 
         .diamonds
@@ -488,7 +629,7 @@ HOMEPAGE PREVIEW CONTENT
         background-size: cover;
         background-repeat: no-repeat;
         background-image: url("/images/diamonds-hover.svg");
-
+        opacity: 0;
           img
           {
           opacity: 1;
@@ -510,7 +651,7 @@ HOMEPAGE PREVIEW CONTENT
         background-size: cover;
         background-repeat: no-repeat;
         background-image: url("/images/inter-hover.svg");
-
+        opacity: 0;
           img
           {
           opacity: 1;
@@ -526,94 +667,118 @@ HOMEPAGE PREVIEW CONTENT
         } // end .inter
 
         .simplethings
-        {
-        cursor: pointer;
-        position: relative;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-image: url("/images/simple-things-hover.svg");
-          
-          img
           {
-          opacity: 1;
-          transition: opacity .4s ease;
+          cursor: pointer;
+          position: relative;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-image: url("/images/simple-things-hover.svg");
+          opacity: 0;      
+          img
+            {
+            opacity: 1;
+            transition: opacity .4s ease;
 
             &:hover
-            {
-            opacity: 0;
-            } //end hover
+              {
+              opacity: 0;
+              } //end hover
 
           } // end img
 
         } // end .simplethings
 
         .jusquabout
-        {
-        cursor: pointer;
-        position: relative;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-image: url("/images/jusquabout-hover.svg");
-
-          img
           {
-          opacity: 1;
-          transition: opacity .4s ease;
-
-            &:hover
+          cursor: pointer;
+          position: relative;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-image: url("/images/jusquabout-hover.svg");
+          opacity: 0;
+            img
             {
-            opacity: 0;
-            } //end hover
+            opacity: 1;
+            transition: opacity .4s ease;
 
-          } // end img
+              &:hover
+              {
+              opacity: 0;
+              } //end hover
+
+            } // end img
 
         } // end .jusquabout
 
         .sqpat
-        {
-        cursor: pointer;
-        position: relative;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-image: url("/images/sqpat-hover.svg");
-
-          img
           {
-          opacity: 1;
-          transition: opacity .4s ease;
-
-            &:hover
+          cursor: pointer;
+          position: relative;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-image: url("/images/sqpat-hover.svg");
+          opacity: 0;
+            img
             {
-            opacity: 0;
-            } //end hover
+            opacity: 1;
+            transition: opacity .4s ease;
 
-          } // end img
+              &:hover
+              {
+              opacity: 0;
+              } //end hover
+
+            } // end img
 
         } // end .sqpat
 
         .trop
-        {
-        cursor: pointer;
-        position: relative;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-image: url("/images/trop-hover.svg");
-
-          img
           {
-          opacity: 1;
-          transition: opacity .4s ease;
-
-            &:hover
+          cursor: pointer;
+          position: relative;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-image: url("/images/trop-hover.svg");
+          opacity: 0;
+            img
             {
-            opacity: 0;
-            } //end hover
+            opacity: 1;
+            transition: opacity .4s ease;
 
-          } // end img
+              &:hover
+              {
+              opacity: 0;
+              } //end hover
+
+            } // end img
 
         } // end trop
 
+        .css-anim
+          {
+          cursor: pointer;
+          position: relative;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-image: url("/images/trop-hover.svg");
+          opacity: 0;
+            img
+            {
+            opacity: 1;
+            transition: opacity .4s ease;
+
+              &:hover
+              {
+              opacity: 0;
+              } //end hover
+
+            } // end img
+
+        } // end css-anim
+
       } //end .previewItem
+
+
 
       #pre_sml
       {
@@ -665,6 +830,7 @@ WORK PAGES
         margin: 0 auto;
         box-sizing: border-box;
 
+
           img 
           {
           width:100%;
@@ -673,6 +839,29 @@ WORK PAGES
           } // end img
 
         } // end .workImage
+
+        .css-anim
+        {
+
+          .play 
+          {
+          color: #000;
+          font-size: 12px;
+          text-transform: uppercase;
+          text-decoration: none;
+          display: block;
+          width: 80px;
+          border-radius: 30px;
+          margin: 20px auto;
+
+            &:hover
+            {
+            color: #656D78;
+            } // end hover
+
+          } // end play
+
+        } // end .css-anim
 
         .inter 
         {
@@ -751,24 +940,45 @@ ABOUT PAGE
       margin: 0;
       padding: 0;
       clear:none;
-    } // end .contactItem 
-
-    p 
-    {
+      
+      p 
+      {
       margin: 0;
       padding:0;
       line-height: 1.4em;
 
-      span 
-      {
-        
-        a.no-underline
-        {
-        border-bottom: none;
-        } // end a.
 
-      } //end span
-    } // end p
+        span.noTop 
+        {
+        display: block;
+        margin-top: 0;
+        line-height: 1.4em;
+        
+          a.no-underline
+          {
+          border-bottom: none;
+          } // end a.no-underline
+
+          a.social-icon
+          {
+          border-bottom: none;
+          text-decoration: none;
+
+            &:hover 
+            {
+            transform:rotate(30deg);
+            } // end &:hover
+
+            &:active
+            {
+            transform:rotate(30deg);
+            } // end active
+
+          }//end a.social
+
+        } // end span.noTop
+
+      } // end p
     
     ul.servicesList
     {
@@ -781,13 +991,6 @@ ABOUT PAGE
       margin: 15px 0 0 0;
     } // end span.blocky
 
-     span.noTop 
-    {
-      display: block;
-      margin-top: 0;
-      line-height: 1.4em;
-    } // end span.noTop
-
     span.bold 
     {
       font-weight: 700;
@@ -795,16 +998,11 @@ ABOUT PAGE
 
     a 
     {
-
-
-      &:hover 
-      {
-
-
-      }
-
+      text-decoration: none;
+      border-bottom: 1px dotted;
     } // end a
-
+    } // end .contactItem 
+    
     .primary 
     {
       padding: 0 3% 0 3%;
@@ -817,6 +1015,8 @@ ABOUT PAGE
       padding: 0 3% 0 3%;
       width:40%;
     } // end .secondary
+
+
 
   } //end #contactColumn 
 
