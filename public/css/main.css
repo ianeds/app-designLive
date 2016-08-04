@@ -208,8 +208,8 @@ min-width 840px
     padding: 15px 0 15px 25px; }
     #top-bar .container .row .logo-top a {
       display: block; }
-    #top-bar .container .row .logo-top img.h2Logo {
-      width: 130px; }
+      #top-bar .container .row .logo-top a img.h2Logo {
+        width: 130px; }
   #top-bar .container .row .navMenu {
     width: 50%;
     display: block;
