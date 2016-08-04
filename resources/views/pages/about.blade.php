@@ -1,7 +1,7 @@
 @extends ('layout')
 @include('includes.header-about')
 
-@section('main')
+@section ('main')
 
 <main id="contactColumn">
     <div class="contactItem primary">
@@ -45,5 +45,6 @@
 @stop
 
 @section('footer')
-
+<footer>
+</footer>
 @stop

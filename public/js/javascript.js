@@ -102,7 +102,16 @@ $( document ).ready(function() {
       (
         { opacity: 1 }, 
         { duration: 700,
-          delay: 300 })
+          delay: 300 }
+      );
+
+      $('#contactColumn').velocity
+      (
+        { opacity: 1 }, 
+        { duration: 700,
+          delay: 300 }
+      );
+      
 });
 
 // Scroll up function
