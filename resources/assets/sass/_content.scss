@@ -46,6 +46,7 @@ HOMEPAGE (PREVIEW CONTENT
     -webkit-box-sizing: border-box;
     vertical-align: baseline;
     text-align: center;
+    opacity:0;
 
       a
       {
@@ -65,7 +66,7 @@ HOMEPAGE (PREVIEW CONTENT
       line-height: 1.3em;
       box-sizing: border-box;
       text-decoration: none;
-      border-bottom: 1px dotted #000;
+      border-bottom: 2px dotted #000;
       opacity: 0;
 
             &:hover
@@ -90,6 +91,26 @@ HOMEPAGE (PREVIEW CONTENT
       span.top-padding
       {
       padding-top: 10px;
+      }
+
+      span.top-padding20
+      {
+      padding-top: 20px;
+      }
+
+      span.top-padding30
+      {
+      padding-top: 30px;
+      }
+
+      span.top-padding40
+      {
+      padding-top: 40px;
+      }
+
+     .hover-bg
+      {
+        display: none;
       }
 
       .hover-template
@@ -133,16 +154,16 @@ HOMEPAGE (PREVIEW CONTENT
 
       .qualitytime
       {
-      opacity: 0;
+
       @extend .hover-template;
-      //background-image: url("/images/quality-time-hover-sml.svg");
+ 
 
       
       } // end .qualitytime
 
       .wellthen
       {
-        opacity: 0;
+
       @extend .hover-template;
       //background-image: url("/images/well-then-hover-sml.svg");
 
@@ -150,7 +171,7 @@ HOMEPAGE (PREVIEW CONTENT
 
       .touchscreen
       {
-        opacity: 0;
+  
       @extend .hover-template;
       //background-image: url("/images/touchscreens-hover-sml.svg");
 
@@ -158,7 +179,7 @@ HOMEPAGE (PREVIEW CONTENT
 
       .diamonds
       {
-        opacity: 0;
+
       @extend .hover-template;
       //background-image: url("/images/diamonds-hover-sml.svg");
 
@@ -166,7 +187,7 @@ HOMEPAGE (PREVIEW CONTENT
 
       .inter
       {
-        opacity: 0;
+
       @extend .hover-template;
       //background-image: url("/images/inter-hover-sml.svg");
 
@@ -174,7 +195,7 @@ HOMEPAGE (PREVIEW CONTENT
 
       .simplethings
       {
-        opacity: 0;
+
       @extend .hover-template;
       //background-image: url("/images/simple-things-hover-sml.svg");
 
@@ -182,7 +203,7 @@ HOMEPAGE (PREVIEW CONTENT
 
       .jusquabout
       {
-        opacity: 0;
+
       @extend .hover-template;
       //background-image: url("/images/jusquabout-hover-sml.svg");
 
@@ -190,7 +211,7 @@ HOMEPAGE (PREVIEW CONTENT
 
       .sqpat
       {
-        opacity: 0;
+
       @extend .hover-template;
       //background-image: url("/images/sqpat-hover-sml.svg");
 
@@ -198,7 +219,7 @@ HOMEPAGE (PREVIEW CONTENT
 
       .trop
       {
-        opacity: 0;
+
       @extend .hover-template;
       //background-image: url("/images/trop-hover-sml.svg");
 
@@ -417,7 +438,7 @@ ABOUT PAGE
           {
           line-height: 1.8em;
           text-decoration: none;
-          border-bottom: 1px dotted #000;
+          border-bottom: 2px dotted #000;
 
             &:hover
             {
@@ -555,13 +576,60 @@ HOMEPAGE PREVIEW CONTENT
         }
 
 
+        .hover-bg 
+          {
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: -1;
+          display: block;
+          width: 100%;
+          height: 100%;
+          display:flex;
+          justify-content: center;
+          align-items: center;
+            
+          span.hover-text
+            {
+            font-size: 12pt;
+            text-align: center;
+            display:block;
+            border-bottom: 2px dotted #000;
+
+            } // end span.hover-text
+
+        } // end hover-bg
+
+        .chips
+        {
+        cursor: pointer;
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0;
+        
+          img
+          {
+          opacity: 1;
+          transition: opacity .4s ease;
+          background: #fff;
+
+            &:hover
+            {
+            opacity: 0;
+            } //end hover
+
+          } // end img
+
+        } // end .chips
+
         .qualitytime
         {
         cursor: pointer;
         position: relative;
         background-size: cover;
         background-repeat: no-repeat;
-        background-image: url("/images/quality-time-hover.svg");
+
         opacity: 0;
         
           img
@@ -585,7 +653,6 @@ HOMEPAGE PREVIEW CONTENT
         position: relative;
         background-size: cover;
         background-repeat: no-repeat;
-        background-image: url("/images/well-then-hover.svg");
         opacity: 0;
           img
           {
@@ -607,7 +674,6 @@ HOMEPAGE PREVIEW CONTENT
         position: relative;
         background-size: cover;
         background-repeat: no-repeat;
-        background-image: url("/images/touchscreens-hover.svg");
         opacity: 0;   
           img
           {
@@ -628,7 +694,7 @@ HOMEPAGE PREVIEW CONTENT
         position: relative;
         background-size: cover;
         background-repeat: no-repeat;
-        background-image: url("/images/diamonds-hover.svg");
+
         opacity: 0;
           img
           {
@@ -650,7 +716,7 @@ HOMEPAGE PREVIEW CONTENT
         position: relative;
         background-size: cover;
         background-repeat: no-repeat;
-        background-image: url("/images/inter-hover.svg");
+
         opacity: 0;
           img
           {
@@ -672,7 +738,7 @@ HOMEPAGE PREVIEW CONTENT
           position: relative;
           background-size: cover;
           background-repeat: no-repeat;
-          background-image: url("/images/simple-things-hover.svg");
+
           opacity: 0;      
           img
             {
@@ -694,7 +760,7 @@ HOMEPAGE PREVIEW CONTENT
           position: relative;
           background-size: cover;
           background-repeat: no-repeat;
-          background-image: url("/images/jusquabout-hover.svg");
+
           opacity: 0;
             img
             {
@@ -716,7 +782,7 @@ HOMEPAGE PREVIEW CONTENT
           position: relative;
           background-size: cover;
           background-repeat: no-repeat;
-          background-image: url("/images/sqpat-hover.svg");
+
           opacity: 0;
             img
             {
@@ -738,7 +804,7 @@ HOMEPAGE PREVIEW CONTENT
           position: relative;
           background-size: cover;
           background-repeat: no-repeat;
-          background-image: url("/images/trop-hover.svg");
+
           opacity: 0;
             img
             {
@@ -760,7 +826,7 @@ HOMEPAGE PREVIEW CONTENT
           position: relative;
           background-size: cover;
           background-repeat: no-repeat;
-          background-image: url("/images/trop-hover.svg");
+
           opacity: 0;
             img
             {
@@ -777,8 +843,6 @@ HOMEPAGE PREVIEW CONTENT
         } // end css-anim
 
       } //end .previewItem
-
-
 
       #pre_sml
       {

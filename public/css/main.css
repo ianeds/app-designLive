@@ -266,7 +266,8 @@ HOMEPAGE (PREVIEW CONTENT
       box-sizing: border-box;
       -webkit-box-sizing: border-box;
       vertical-align: baseline;
-      text-align: center; }
+      text-align: center;
+      opacity: 0; }
       #mainColumn .container .previewItem a {
         background-size: auto;
         background-position: auto;
@@ -281,7 +282,7 @@ HOMEPAGE (PREVIEW CONTENT
         line-height: 1.3em;
         box-sizing: border-box;
         text-decoration: none;
-        border-bottom: 1px dotted #000;
+        border-bottom: 2px dotted #000;
         opacity: 0; }
         #mainColumn .container .previewItem span.preview-mobile-text:hover {
           border-bottom: 2px solid #000; }
@@ -291,6 +292,14 @@ HOMEPAGE (PREVIEW CONTENT
           font-style: italic; }
       #mainColumn .container .previewItem span.top-padding {
         padding-top: 10px; }
+      #mainColumn .container .previewItem span.top-padding20 {
+        padding-top: 20px; }
+      #mainColumn .container .previewItem span.top-padding30 {
+        padding-top: 30px; }
+      #mainColumn .container .previewItem span.top-padding40 {
+        padding-top: 40px; }
+      #mainColumn .container .previewItem .hover-bg {
+        display: none; }
       #mainColumn .container .previewItem .hover-template, #mainColumn .container .previewItem .css-anim, #mainColumn .container .previewItem .qualitytime, #mainColumn .container .previewItem .wellthen, #mainColumn .container .previewItem .touchscreen, #mainColumn .container .previewItem .diamonds, #mainColumn .container .previewItem .inter, #mainColumn .container .previewItem .simplethings, #mainColumn .container .previewItem .jusquabout, #mainColumn .container .previewItem .sqpat, #mainColumn .container .previewItem .trop {
         cursor: pointer;
         position: relative;
@@ -298,24 +307,6 @@ HOMEPAGE (PREVIEW CONTENT
         background-repeat: no-repeat; }
       #mainColumn .container .previewItem .css-anim img {
         width: 100%; }
-      #mainColumn .container .previewItem .qualitytime {
-        opacity: 0; }
-      #mainColumn .container .previewItem .wellthen {
-        opacity: 0; }
-      #mainColumn .container .previewItem .touchscreen {
-        opacity: 0; }
-      #mainColumn .container .previewItem .diamonds {
-        opacity: 0; }
-      #mainColumn .container .previewItem .inter {
-        opacity: 0; }
-      #mainColumn .container .previewItem .simplethings {
-        opacity: 0; }
-      #mainColumn .container .previewItem .jusquabout {
-        opacity: 0; }
-      #mainColumn .container .previewItem .sqpat {
-        opacity: 0; }
-      #mainColumn .container .previewItem .trop {
-        opacity: 0; }
     #mainColumn .container #pre_sml {
       padding: 3em .5em 3em .5em; }
     #mainColumn .container .first {
@@ -415,7 +406,7 @@ ABOUT PAGE
         #contactColumn .contactItem p span.noTop a.phone-email {
           line-height: 1.8em;
           text-decoration: none;
-          border-bottom: 1px dotted #000; }
+          border-bottom: 2px dotted #000; }
           #contactColumn .contactItem p span.noTop a.phone-email:hover {
             border-bottom: 2px solid #000; }
           #contactColumn .contactItem p span.noTop a.phone-email:active {
@@ -486,12 +477,43 @@ HOMEPAGE PREVIEW CONTENT
         text-align: center; }
         #mainColumn .container .previewItem span.preview-mobile-text {
           display: none; }
+        #mainColumn .container .previewItem .hover-bg {
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: -1;
+          display: block;
+          width: 100%;
+          height: 100%;
+          display: -webkit-box;
+          display: flex;
+          -webkit-box-pack: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          align-items: center; }
+          #mainColumn .container .previewItem .hover-bg span.hover-text {
+            font-size: 12pt;
+            text-align: center;
+            display: block;
+            border-bottom: 2px dotted #000; }
+        #mainColumn .container .previewItem .chips {
+          cursor: pointer;
+          position: relative;
+          background-size: cover;
+          background-repeat: no-repeat;
+          opacity: 0; }
+          #mainColumn .container .previewItem .chips img {
+            opacity: 1;
+            -webkit-transition: opacity .4s ease;
+            transition: opacity .4s ease;
+            background: #fff; }
+            #mainColumn .container .previewItem .chips img:hover {
+              opacity: 0; }
         #mainColumn .container .previewItem .qualitytime {
           cursor: pointer;
           position: relative;
           background-size: cover;
           background-repeat: no-repeat;
-          background-image: url("/images/quality-time-hover.svg");
           opacity: 0; }
           #mainColumn .container .previewItem .qualitytime img {
             opacity: 1;
@@ -505,7 +527,6 @@ HOMEPAGE PREVIEW CONTENT
           position: relative;
           background-size: cover;
           background-repeat: no-repeat;
-          background-image: url("/images/well-then-hover.svg");
           opacity: 0; }
           #mainColumn .container .previewItem .wellthen img {
             opacity: 1;
@@ -518,7 +539,6 @@ HOMEPAGE PREVIEW CONTENT
           position: relative;
           background-size: cover;
           background-repeat: no-repeat;
-          background-image: url("/images/touchscreens-hover.svg");
           opacity: 0; }
           #mainColumn .container .previewItem .touchscreen img {
             opacity: 1;
@@ -531,7 +551,6 @@ HOMEPAGE PREVIEW CONTENT
           position: relative;
           background-size: cover;
           background-repeat: no-repeat;
-          background-image: url("/images/diamonds-hover.svg");
           opacity: 0; }
           #mainColumn .container .previewItem .diamonds img {
             opacity: 1;
@@ -544,7 +563,6 @@ HOMEPAGE PREVIEW CONTENT
           position: relative;
           background-size: cover;
           background-repeat: no-repeat;
-          background-image: url("/images/inter-hover.svg");
           opacity: 0; }
           #mainColumn .container .previewItem .inter img {
             opacity: 1;
@@ -557,7 +575,6 @@ HOMEPAGE PREVIEW CONTENT
           position: relative;
           background-size: cover;
           background-repeat: no-repeat;
-          background-image: url("/images/simple-things-hover.svg");
           opacity: 0; }
           #mainColumn .container .previewItem .simplethings img {
             opacity: 1;
@@ -570,7 +587,6 @@ HOMEPAGE PREVIEW CONTENT
           position: relative;
           background-size: cover;
           background-repeat: no-repeat;
-          background-image: url("/images/jusquabout-hover.svg");
           opacity: 0; }
           #mainColumn .container .previewItem .jusquabout img {
             opacity: 1;
@@ -583,7 +599,6 @@ HOMEPAGE PREVIEW CONTENT
           position: relative;
           background-size: cover;
           background-repeat: no-repeat;
-          background-image: url("/images/sqpat-hover.svg");
           opacity: 0; }
           #mainColumn .container .previewItem .sqpat img {
             opacity: 1;
@@ -596,7 +611,6 @@ HOMEPAGE PREVIEW CONTENT
           position: relative;
           background-size: cover;
           background-repeat: no-repeat;
-          background-image: url("/images/trop-hover.svg");
           opacity: 0; }
           #mainColumn .container .previewItem .trop img {
             opacity: 1;
@@ -609,7 +623,6 @@ HOMEPAGE PREVIEW CONTENT
           position: relative;
           background-size: cover;
           background-repeat: no-repeat;
-          background-image: url("/images/trop-hover.svg");
           opacity: 0; }
           #mainColumn .container .previewItem .css-anim img {
             opacity: 1;

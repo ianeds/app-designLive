@@ -6,11 +6,11 @@
 	<div class="container">
 		<div class="workItems">
 			<span>
-			<span class="ital">Quality time</span>typographic study
+			<span class="ital">Chips & mayo</span>illustration
 			</span>
 
 			<div class="workImage markstwo">
-			<img class="" src="images/quality-time_700x540.svg">
+			<img class="" src="images/cornet-de-frites-700x540.png">
 			</div> <!-- end .workImages -->
 
 			</div> <!-- end .workItems -->
@@ -25,9 +25,8 @@
 <footer>
 	<div class="footerContainer">
 		<div class="footerBtn">
-			<a href='/chips' class="previous"></a>
 			<a href='/' class="goback"></a>
-			<a href='/wellthen' class="seemore"></a>
+			<a href='/qualitytime' class="seemore"></a>
 		</div> <!-- end .footerBtn -->
 	</div> <!-- end .footerContainer -->
 </footer>

@@ -32,7 +32,15 @@ function withVelocity()
 
 $( document ).ready(function() {
 
-    $('.qualitytime')
+
+    $('.previewItem')
+      .velocity
+      (
+        { opacity: 1 }, 
+        { duration: 700,
+          delay: 300 });
+
+    $('.chips')
       .velocity
   		(
   			{ opacity: 1 }, 
@@ -40,20 +48,27 @@ $( document ).ready(function() {
   			  delay: 300 });
 
 
-  	$('.wellthen')
+    $('.qualitytime')
     .velocity
-  		(
-  			{ opacity: 1 }, 
-  			{ duration: 700,
-  			  delay: 300 });
+      (
+        { opacity: 1 }, 
+        { duration: 700,
+          delay: 300 });
+
+    $('.wellthen')
+    .velocity
+      (
+        { opacity: 1 }, 
+        { duration: 700,
+          delay: 300 });
 
 
-  	$('.touchscreen').velocity
-  		(
-  			{ opacity: 1 }, 
-  			{ duration: 700,
-  			  delay: 300 }
-  		);
+    $('.touchscreen').velocity
+      (
+        { opacity: 1 }, 
+        { duration: 700,
+          delay: 300 }
+      );
 
     $('.diamonds').velocity
       (

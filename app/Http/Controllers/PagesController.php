@@ -10,6 +10,11 @@ class PagesController extends Controller
     return view('/pages/home');
     }
 
+    public function chips()
+    {
+    return view('/pages/chips');
+    }
+
     public function qualitytime()
     {
     return view('/pages/qualitytime');
