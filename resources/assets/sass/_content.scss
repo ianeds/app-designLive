@@ -65,18 +65,20 @@ HOMEPAGE (PREVIEW CONTENT
       text-align: center;
       line-height: 1.3em;
       box-sizing: border-box;
-      text-decoration: none;
-      border-bottom: 2px solid #000;
+      text-decoration: underline;
+
+      
       opacity: 0;
 
             &:hover
             {
-            border-bottom: 2px dotted #000;
+            text-decoration: underline;
             }
 
             &:active
             {
-            border-bottom: 2px dotted #000;
+             text-decoration: underline;
+            //border-bottom: 2px dotted #000;
             }
 
 
