@@ -281,13 +281,7 @@ HOMEPAGE (PREVIEW CONTENT
         text-align: center;
         line-height: 1.3em;
         box-sizing: border-box;
-        text-decoration: none;
-        border-bottom: 2px dotted #000;
         opacity: 0; }
-        #mainColumn .container .previewItem span.preview-mobile-text:hover {
-          border-bottom: 2px solid #000; }
-        #mainColumn .container .previewItem span.preview-mobile-text:active {
-          border-bottom: 2px solid #000; }
         #mainColumn .container .previewItem span.preview-mobile-text span.ital {
           font-style: italic; }
       #mainColumn .container .previewItem span.top-padding {
