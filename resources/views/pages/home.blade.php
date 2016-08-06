@@ -22,10 +22,10 @@
 
                             <span class="hover-text">Chips & mayo illustration</span>
 
-                    </div>
-                    </div>
+                        </div>
+            </div>
 
-                        <span class="preview-mobile-text top-padding40">Chips &&nbsp;</span><span class="preview-mobile-text top-padding40">mayo illustration
+                        <span class="preview-mobile-text ">Chips &&nbsp;</span><span class="preview-mobile-text">mayo illustration
                         </span>
                 </a>
  
@@ -70,7 +70,7 @@
 
             </div>
         </div>
-        <span class="preview-mobile-text top-padding">Touch-screen kiosk designs</span></a></div>
+        <span class="preview-mobile-text top-padding">Touch-screen&nbsp;</span><span class="preview-mobile-text">kiosk designs</span></a></div>
 
         <div class="previewItem"><div class="diamonds"><a href="/diamonds"><img src="images/diamond_1_700x540.png">
             <div class="hover-bg">
@@ -100,13 +100,13 @@
 
             </div>
 
-        </div><span class="preview-mobile-text"><span class="ital">Simple things</span> illustration</span></a></div>
+        </div><span class="preview-mobile-text">Simple things&nbsp;</span><span class="preview-mobile-text">illustration</span></a></div>
 
         <div class="previewItem"><div class="jusquabout"><a href="/jusquabout"><img src="images/jusqu-au-bout-700x540.png">
 
         <div class="hover-bg">
 
-                <span class="hover-text"><span class="ital"><span class="ital">Jusqu'au bout</span> illustration</span>
+                <span class="hover-text"><span class="ital">Jusqu'au bout&nbsp;</span><span class="preview-mobile-text">illustration</span>
 
             </div>
 
@@ -121,7 +121,7 @@
 
         </div>
 
-            </div><span class="preview-mobile-text">Square pattern illustrations</span></a></div>
+            </div><span class="preview-mobile-text">Square pattern&nbsp;</span><span class="preview-mobile-text">illustrations</span></a></div>
 
         <div class="previewItem"><div class="trop"><a href="/trop"><img src="images/trop_700x540.png">
             <div class="hover-bg">

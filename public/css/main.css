@@ -275,7 +275,7 @@ HOMEPAGE (PREVIEW CONTENT
       #mainColumn .container .previewItem span.preview-mobile-text {
         vertical-align: baseline;
         bottom: 0px;
-        font-size: 1.3em;
+        font-size: 16px;
         display: inline;
         margin: 0 auto;
         text-align: center;
@@ -284,9 +284,9 @@ HOMEPAGE (PREVIEW CONTENT
         border-bottom: 2px solid #000;
         opacity: 0; }
         #mainColumn .container .previewItem span.preview-mobile-text:hover {
-          border-bottom: 2px dotted #000; }
+          border-bottom: 2px solid #000; }
         #mainColumn .container .previewItem span.preview-mobile-text:active {
-          border-bottom: 2px dotted #000; }
+          border-bottom: 2px solid #000; }
         #mainColumn .container .previewItem span.preview-mobile-text span.ital {
           font-style: italic; }
       #mainColumn .container .previewItem span.top-padding {
@@ -307,7 +307,13 @@ HOMEPAGE (PREVIEW CONTENT
       #mainColumn .container .previewItem .css-anim img {
         width: 100%; }
       #mainColumn .container .previewItem .chips {
-        margin-bottom: 40px; }
+        margin-bottom: 20px; }
+      #mainColumn .container .previewItem .touchscreen {
+        margin-bottom: 15px; }
+      #mainColumn .container .previewItem .diamonds {
+        margin-bottom: 10px; }
+      #mainColumn .container .previewItem .inter {
+        margin-bottom: 15px; }
     #mainColumn .container #pre_sml {
       padding: 3em .5em 3em .5em; }
     #mainColumn .container .first {
@@ -336,7 +342,7 @@ WORK PAGES
       margin: 0 auto;
       width: 100%;
       box-sizing: border-box;
-      padding: 0 5%; }
+      padding: 0; }
       #workPages .container .workItems span {
         font-size: 1.1em;
         line-height: 1.25em;
@@ -352,7 +358,7 @@ WORK PAGES
           line-height: 1em; }
       #workPages .container .workItems .workImage {
         margin: 0 auto;
-        padding: 2em; }
+        padding: 1em; }
         #workPages .container .workItems .workImage img {
           width: 100%; }
       #workPages .container .workItems .css-anim .play {
@@ -366,8 +372,11 @@ WORK PAGES
         margin: 20px auto; }
         #workPages .container .workItems .css-anim .play:hover {
           color: #656D78; }
+      #workPages .container .workItems .touchscreen {
+        margin-bottom: 0px; }
       #workPages .container .workItems .inter {
-        padding: 2em 0 2em 0; }
+        padding: 2em 0 2em 0;
+        margin-bottom: 0px; }
       #workPages .container .workItems #horiz {
         padding: 2em 2em 2em 2em; }
       #workPages .container .workItems .bannerAds {
@@ -553,6 +562,7 @@ HOMEPAGE PREVIEW CONTENT
           position: relative;
           background-size: cover;
           background-repeat: no-repeat;
+          margin-bottom: 0;
           opacity: 0; }
           #mainColumn .container .previewItem .diamonds img {
             opacity: 1;

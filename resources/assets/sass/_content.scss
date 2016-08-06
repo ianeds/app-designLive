@@ -59,7 +59,7 @@ HOMEPAGE (PREVIEW CONTENT
       {
       vertical-align: baseline;
       bottom: 0px;
-      font-size: 1.3em;
+      font-size: 16px;
       display: inline;
       margin: 0 auto;
       text-align: center;
@@ -73,16 +73,14 @@ HOMEPAGE (PREVIEW CONTENT
             &:hover
             {
             //text-decoration: underline;
-            border-bottom: 2px dotted #000;
+            border-bottom: 2px solid #000;
             }
 
             &:active
             {
             //text-decoration: underline;
-            border-bottom: 2px dotted #000;
+            border-bottom: 2px solid #000;
             }
-
-
 
         span.ital
         {
@@ -91,6 +89,7 @@ HOMEPAGE (PREVIEW CONTENT
         }
       
       } // end preview.mobile.text
+
       span.top-padding
       {
       padding-top: 10px;
@@ -158,7 +157,8 @@ HOMEPAGE (PREVIEW CONTENT
 
       .chips
       {
-      margin-bottom: 40px;
+      margin-bottom: 20px;
+
       @extend .hover-template;
       }
       .qualitytime
@@ -180,7 +180,7 @@ HOMEPAGE (PREVIEW CONTENT
 
       .touchscreen
       {
-  
+      margin-bottom: 15px;
       @extend .hover-template;
       //background-image: url("/images/touchscreens-hover-sml.svg");
 
@@ -188,7 +188,7 @@ HOMEPAGE (PREVIEW CONTENT
 
       .diamonds
       {
-
+      margin-bottom: 10px;
       @extend .hover-template;
       //background-image: url("/images/diamonds-hover-sml.svg");
 
@@ -196,7 +196,7 @@ HOMEPAGE (PREVIEW CONTENT
 
       .inter
       {
-
+      margin-bottom: 15px;
       @extend .hover-template;
       //background-image: url("/images/inter-hover-sml.svg");
 
@@ -204,7 +204,7 @@ HOMEPAGE (PREVIEW CONTENT
 
       .simplethings
       {
-
+      
       @extend .hover-template;
       //background-image: url("/images/simple-things-hover-sml.svg");
 
@@ -285,7 +285,7 @@ WORK PAGES
       margin: 0 auto;
       width: 100%;
       box-sizing: border-box;
-      padding: 0 5%;
+      padding: 0;
 
       span 
       {
@@ -310,7 +310,7 @@ WORK PAGES
       .workImage 
       {
       margin: 0 auto;
-      padding: 2em;
+      padding: 1em;
 
         img 
         {
@@ -353,6 +353,7 @@ WORK PAGES
 
       .touchscreen 
       {
+      margin-bottom: 0px;
       //width: 50% !important;
       //padding: 2em;
 
@@ -361,6 +362,7 @@ WORK PAGES
       .inter 
       {
       padding: 2em 0 2em 0;
+      margin-bottom: 0px;
 
       } //end .inter
 
@@ -704,6 +706,7 @@ HOMEPAGE PREVIEW CONTENT
         position: relative;
         background-size: cover;
         background-repeat: no-repeat;
+        margin-bottom: 0;
 
         opacity: 0;
           img
@@ -748,7 +751,6 @@ HOMEPAGE PREVIEW CONTENT
           position: relative;
           background-size: cover;
           background-repeat: no-repeat;
-
           opacity: 0;      
           img
             {
