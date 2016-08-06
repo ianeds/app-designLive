@@ -440,16 +440,16 @@ ABOUT PAGE
           {
           line-height: 1.8em;
           text-decoration: none;
-          border-bottom: 2px solid #000;
+          border-bottom: 2px dotted #000;
 
             &:hover
             {
-            border-bottom: 2px dotted #000;
+            border-bottom: 2px solid #000;
             }
 
             &:active
             {
-            border-bottom: 2px dotted #000;
+            border-bottom: 2px solid #000;
             }
           } // end a.phone-email
 
