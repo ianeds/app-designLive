@@ -60,25 +60,26 @@ HOMEPAGE (PREVIEW CONTENT
       vertical-align: baseline;
       bottom: 0px;
       font-size: 1.3em;
-      display: table;
+      display: inline;
       margin: 0 auto;
       text-align: center;
       line-height: 1.3em;
       box-sizing: border-box;
-      text-decoration: underline;
-
+      //text-decoration: underline;
+      border-bottom: 2px solid #000;
       
       opacity: 0;
 
             &:hover
             {
-            text-decoration: underline;
+            //text-decoration: underline;
+            border-bottom: 2px dotted #000;
             }
 
             &:active
             {
-             text-decoration: underline;
-            //border-bottom: 2px dotted #000;
+            //text-decoration: underline;
+            border-bottom: 2px dotted #000;
             }
 
 
@@ -154,6 +155,12 @@ HOMEPAGE (PREVIEW CONTENT
       
       } // end .css-anim
 
+
+      .chips
+      {
+      margin-bottom: 40px;
+      @extend .hover-template;
+      }
       .qualitytime
       {
 
@@ -609,6 +616,7 @@ HOMEPAGE PREVIEW CONTENT
         background-size: cover;
         background-repeat: no-repeat;
         opacity: 0;
+        margin-bottom: 0px;
         
           img
           {

@@ -25,7 +25,7 @@
                     </div>
                     </div>
 
-                        <span class="preview-mobile-text top-padding40"><span class="ital">Chips & mayo</span> illustration
+                        <span class="preview-mobile-text top-padding40">Chips &&nbsp;</span><span class="preview-mobile-text top-padding40">mayo illustration
                         </span>
                 </a>
  

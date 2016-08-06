@@ -276,17 +276,17 @@ HOMEPAGE (PREVIEW CONTENT
         vertical-align: baseline;
         bottom: 0px;
         font-size: 1.3em;
-        display: table;
+        display: inline;
         margin: 0 auto;
         text-align: center;
         line-height: 1.3em;
         box-sizing: border-box;
-        text-decoration: underline;
+        border-bottom: 2px solid #000;
         opacity: 0; }
         #mainColumn .container .previewItem span.preview-mobile-text:hover {
-          text-decoration: underline; }
+          border-bottom: 2px dotted #000; }
         #mainColumn .container .previewItem span.preview-mobile-text:active {
-          text-decoration: underline; }
+          border-bottom: 2px dotted #000; }
         #mainColumn .container .previewItem span.preview-mobile-text span.ital {
           font-style: italic; }
       #mainColumn .container .previewItem span.top-padding {
@@ -299,13 +299,15 @@ HOMEPAGE (PREVIEW CONTENT
         padding-top: 40px; }
       #mainColumn .container .previewItem .hover-bg {
         display: none; }
-      #mainColumn .container .previewItem .hover-template, #mainColumn .container .previewItem .css-anim, #mainColumn .container .previewItem .qualitytime, #mainColumn .container .previewItem .wellthen, #mainColumn .container .previewItem .touchscreen, #mainColumn .container .previewItem .diamonds, #mainColumn .container .previewItem .inter, #mainColumn .container .previewItem .simplethings, #mainColumn .container .previewItem .jusquabout, #mainColumn .container .previewItem .sqpat, #mainColumn .container .previewItem .trop {
+      #mainColumn .container .previewItem .hover-template, #mainColumn .container .previewItem .css-anim, #mainColumn .container .previewItem .chips, #mainColumn .container .previewItem .qualitytime, #mainColumn .container .previewItem .wellthen, #mainColumn .container .previewItem .touchscreen, #mainColumn .container .previewItem .diamonds, #mainColumn .container .previewItem .inter, #mainColumn .container .previewItem .simplethings, #mainColumn .container .previewItem .jusquabout, #mainColumn .container .previewItem .sqpat, #mainColumn .container .previewItem .trop {
         cursor: pointer;
         position: relative;
         background-size: cover;
         background-repeat: no-repeat; }
       #mainColumn .container .previewItem .css-anim img {
         width: 100%; }
+      #mainColumn .container .previewItem .chips {
+        margin-bottom: 40px; }
     #mainColumn .container #pre_sml {
       padding: 3em .5em 3em .5em; }
     #mainColumn .container .first {
@@ -500,7 +502,8 @@ HOMEPAGE PREVIEW CONTENT
           position: relative;
           background-size: cover;
           background-repeat: no-repeat;
-          opacity: 0; }
+          opacity: 0;
+          margin-bottom: 0px; }
           #mainColumn .container .previewItem .chips img {
             opacity: 1;
             -webkit-transition: opacity .4s ease;
