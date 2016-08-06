@@ -42,10 +42,10 @@ $( document ).ready(function() {
 
     $('.chips')
       .velocity
-  		(
-  			{ opacity: 1 }, 
-  			{ duration: 700,
-  			  delay: 300 });
+      (
+        { opacity: 1 }, 
+        { duration: 700,
+          delay: 300 });
 
 
     $('.qualitytime')
@@ -138,7 +138,7 @@ function scrollUp()
 {
 
 $('#siteheader').velocity
-      ("scroll", { duration: 1500}
+      ("scroll", { duration: 1000}
       );
 }
 

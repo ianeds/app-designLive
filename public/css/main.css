@@ -281,7 +281,13 @@ HOMEPAGE (PREVIEW CONTENT
         text-align: center;
         line-height: 1.3em;
         box-sizing: border-box;
+        text-decoration: none;
+        border-bottom: 2px solid #000;
         opacity: 0; }
+        #mainColumn .container .previewItem span.preview-mobile-text:hover {
+          border-bottom: 2px dotted #000; }
+        #mainColumn .container .previewItem span.preview-mobile-text:active {
+          border-bottom: 2px dotted #000; }
         #mainColumn .container .previewItem span.preview-mobile-text span.ital {
           font-style: italic; }
       #mainColumn .container .previewItem span.top-padding {
@@ -400,11 +406,11 @@ ABOUT PAGE
         #contactColumn .contactItem p span.noTop a.phone-email {
           line-height: 1.8em;
           text-decoration: none;
-          border-bottom: 2px dotted #000; }
+          border-bottom: 2px solid #000; }
           #contactColumn .contactItem p span.noTop a.phone-email:hover {
-            border-bottom: 2px solid #000; }
+            border-bottom: 2px dotted #000; }
           #contactColumn .contactItem p span.noTop a.phone-email:active {
-            border-bottom: 2px solid #000; }
+            border-bottom: 2px dotted #000; }
         #contactColumn .contactItem p span.noTop a.no-underline {
           border-bottom: none;
           text-decoration: none; }
@@ -488,8 +494,8 @@ HOMEPAGE PREVIEW CONTENT
           #mainColumn .container .previewItem .hover-bg span.hover-text {
             font-size: 12pt;
             text-align: center;
-            display: block;
-            border-bottom: 2px dotted #000; }
+            display: inline;
+            border-bottom: 2px solid #000; }
         #mainColumn .container .previewItem .chips {
           cursor: pointer;
           position: relative;
@@ -728,9 +734,6 @@ ABOUT PAGE
         margin: 15px 0 0 0; }
       #contactColumn .contactItem span.bold {
         font-weight: 700; }
-      #contactColumn .contactItem a {
-        text-decoration: none;
-        border-bottom: 1px dotted; }
     #contactColumn .primary {
       padding: 0 3% 0 3%;
       width: 60%; }

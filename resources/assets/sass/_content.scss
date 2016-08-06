@@ -65,18 +65,18 @@ HOMEPAGE (PREVIEW CONTENT
       text-align: center;
       line-height: 1.3em;
       box-sizing: border-box;
-      //text-decoration: none;
-      //border-bottom: 2px dotted #000;
+      text-decoration: none;
+      border-bottom: 2px solid #000;
       opacity: 0;
 
             &:hover
             {
-            //border-bottom: 2px solid #000;
+            border-bottom: 2px dotted #000;
             }
 
             &:active
             {
-            //border-bottom: 2px solid #000;
+            border-bottom: 2px dotted #000;
             }
 
 
@@ -438,16 +438,16 @@ ABOUT PAGE
           {
           line-height: 1.8em;
           text-decoration: none;
-          border-bottom: 2px dotted #000;
+          border-bottom: 2px solid #000;
 
             &:hover
             {
-            border-bottom: 2px solid #000;
+            border-bottom: 2px dotted #000;
             }
 
             &:active
             {
-            border-bottom: 2px solid #000;
+            border-bottom: 2px dotted #000;
             }
           } // end a.phone-email
 
@@ -593,8 +593,8 @@ HOMEPAGE PREVIEW CONTENT
             {
             font-size: 12pt;
             text-align: center;
-            display:block;
-            border-bottom: 2px dotted #000;
+            display:inline;
+            border-bottom: 2px solid #000;
 
             } // end span.hover-text
 
@@ -1060,11 +1060,6 @@ ABOUT PAGE
       font-weight: 700;
     } // end span.bold
 
-    a 
-    {
-      text-decoration: none;
-      border-bottom: 1px dotted;
-    } // end a
     } // end .contactItem 
     
     .primary 
