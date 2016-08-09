@@ -52,6 +52,16 @@ TYPOGRAPHY
 
 @font-face {
   font-family: "nimbus-sans";
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: "nimbus-sans";
+  font-weight: 300;
+  font-style: italic; }
+
+@font-face {
+  font-family: "nimbus-sans";
   font-weight: 400;
   font-style: normal; }
 
@@ -64,6 +74,11 @@ TYPOGRAPHY
   font-family: "nimbus-sans";
   font-weight: 700;
   font-style: normal; }
+
+@font-face {
+  font-family: "nimbus-sans";
+  font-weight: 700;
+  font-style: italic; }
 
 @font-face {
   font-family: "source-sans-pro";
