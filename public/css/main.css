@@ -148,18 +148,18 @@ HEADER
         float: left;
         position: relative;
         box-sizing: border-box;
-        padding: 15px 0 15px 25px; }
+        padding: 15px 0 15px 35px; }
         #top-bar .container .row .logo-top a {
           display: block; }
         #top-bar .container .row .logo-top img.h2Logo {
-          width: 130px; }
+          width: 90px; }
       #top-bar .container .row .navMenu {
         width: 50%;
         display: block;
         float: left;
         position: relative;
         box-sizing: border-box;
-        padding: 12px 25px 0 0;
+        padding: 16px 35px 0 0;
         text-align: right; }
         #top-bar .container .row .navMenu span.top-info {
           position: relative;
@@ -205,18 +205,18 @@ min-width 840px
     float: left;
     position: relative;
     box-sizing: border-box;
-    padding: 15px 0 15px 25px; }
+    padding: 15px 0 15px 35px; }
     #top-bar .container .row .logo-top a {
       display: block; }
       #top-bar .container .row .logo-top a img.h2Logo {
-        width: 130px; }
+        width: 90px; }
   #top-bar .container .row .navMenu {
     width: 50%;
     display: block;
     float: left;
     position: relative;
     box-sizing: border-box;
-    padding: 12px 60px 0 0;
+    padding: 16px 60px 0 0;
     text-align: right; }
     #top-bar .container .row .navMenu span.top-info {
       position: relative;
