@@ -5,7 +5,7 @@
 
 <main id="contactColumn">
     <div class="contactItem primary">
-        <p>Lamp Bureau is a graphic design agency that helps businesses, organizations, and people communicate their message through expressive and disciplined design. <br><br>Multidisciplinary in vision and concept-driven, Lamp works across digital and print media. Our three main areas of service are:
+        <p>Lamp Bureau is a graphic design Studios that helps businesses, organizations, and people communicate their message through expressive and disciplined design. <br><br>Multidisciplinary in vision and concept-driven, Lamp works across digital and print media. Our three main areas of service are:
         <ul class="servicesList">
             <li>Web design: interface design and front-end web development using CSS 3, HTML5, Javascript/jQuery, PHP, and Laravel 5
             </li>
