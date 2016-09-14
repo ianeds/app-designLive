@@ -18,7 +18,7 @@
     <div class="contactItem secondary">
         <p>
             <span class="noTop">
-                <a class="phone-email" href="tel:+310615197033">+31 (0)6 151 97 033</a><br>
+    
                 <a class="phone-email" href="mailto:info@lampbureau.com" target="_top" class=''>info@lampbureau.com</a><br><br>
                 
                 <a class="no-underline" href="https://www.instagram.com/lampbureau/" target="_blank"><img class="social-icon" src="/images/instagram-icon.png" width=50px height=50px alt="instagramIcon"></a>&nbsp;&nbsp;
