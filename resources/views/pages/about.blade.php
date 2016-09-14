@@ -25,17 +25,8 @@
                 <a class="no-underline" href="https://www.twitter.com/lamp_bureau" target="_blank"><img class="twitter-icon" src="/images/twitter-icon.png" width=50px height=50px alt="twitterIcon"></a>&nbsp;&nbsp;
                 <a class="no-underline" href="https://www.pinterest.com/lampbureau" target="_blank"><img class="social-icon" src="/images/pinterest-icon.png" width=50px height=50px alt="pinterestIcon"></a>
                 <br><br>
-
-                Lamp Bureau<br>
-                Minckelersstraat 18<br>
-                6211 GX Maastricht<br>
-                The Netherlands
             </span> <!-- end span.noTop -->
-            
-            <span class='blocky'>
-                <span class='bold'>KVK</span> 65483820<br>
-                <span class='bold'>BTW</span> NL366765899B01<br><br><br><br>
-            </span> <!-- end span.blocky -->
+
 
         </p>
        </div>
